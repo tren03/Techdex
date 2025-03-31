@@ -1,0 +1,68 @@
+[
+    {
+        "id": "eaae84",
+        "title": "Impeccable API Design: What you MUST CONSIDER before deploying APIs to production",
+        "url": "https://www.youtube.com/watch?v=FqljO9B5grM",
+        "addedAt": 1741770593
+    },
+    {
+        "id": "731d1a",
+        "title": "Design Microservice Architectures the Right Way",
+        "url": "https://www.youtube.com/watch?v=j6ow-UemzBc",
+        "addedAt": 1741771977
+    },
+    {
+        "id": "cac546",
+        "title": "20 Whitepapers that changed the world [For Senior Software Engineers]",
+        "url": "https://www.youtube.com/watch?v=WWGM4hY34pI",
+        "addedAt": 1741776520
+    },
+    {
+        "id": "826373",
+        "title": "System Design Primer ⭐️: How to start with distributed systems?",
+        "url": "https://www.youtube.com/watch?v=SqcXvc3ZmRU",
+        "addedAt": 1741832227
+    },
+    {
+        "id": "72881b",
+        "title": "Razorpay's Journey to Microservices w/ Arjun | Ep 1",
+        "url": "https://www.youtube.com/watch?v=yqkyq8TPWbg",
+        "addedAt": 1741924109
+    },
+    {
+        "id": "b32f73",
+        "title": "How to learn better and faster as a software engineer?",
+        "url": "https://www.youtube.com/watch?v=Je5WBk91Wlc",
+        "addedAt": 1742188607
+    },
+    {
+        "id": "91056d",
+        "title": "From an Engineer to Google SVP: My Career Tips and Advice",
+        "url": "https://www.youtube.com/watch?v=MtV8MQs7sw4",
+        "addedAt": 1742365945
+    },
+    {
+        "id": "edc5f0",
+        "title": "Mastering Chaos - A Netflix Guide to Microservices",
+        "url": "https://www.youtube.com/watch?v=CZ3wIuvmHeM",
+        "addedAt": 1742377229
+    },
+    {
+        "id": "ca276b",
+        "title": "How to decide which technology to learn and invest time in?",
+        "url": "https://www.youtube.com/watch?v=z8m_iKCPTaQ",
+        "addedAt": 1742634096
+    },
+    {
+        "id": "698ba4",
+        "title": "ThePrimeagen: Programming, AI, ADHD, Productivity, Addiction, and God | Lex Fridman Podcast #461",
+        "url": "https://www.youtube.com/watch?v=tNZnLkRBYA8",
+        "addedAt": 1742669742
+    },
+    {
+        "id": "9f9173",
+        "title": "Repository Pattern in Go - How to Structure your Projects",
+        "url": "https://www.youtube.com/watch?v=eE8nqgryW_8",
+        "addedAt": 1742747028
+    }
+]

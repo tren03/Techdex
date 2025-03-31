@@ -6,23 +6,23 @@ import { useState } from "react";
 interface Article {
   id: string;
   title: string;
-  description: string;
   url: string;
-  addedAt: Date;
+  addedAt: number;
 }
 
 interface JsonCardsProps {
   articles: Article[];
 }
 
+const epochToDate = (epoch:number) => new Date(epoch * 1000);
+
 function formatProgrammaticData(article: Article) {
-  const epochDate = article.addedAt.getTime(); // Get epoch time
-  const humanReadableDate = article.addedAt.toLocaleDateString(); // Get human-readable date
+  const humanReadableDate = epochToDate(article.addedAt); // Get human-readable date
   return `{
   id: ${article.id},
   title: "${article.title}",
   url: "${article.url}",
-  addedAt: ${epochDate} (${humanReadableDate})
+  addedAt: ${article.addedAt} (${humanReadableDate})
 }`;
 }
 
@@ -34,7 +34,6 @@ const JsonCards: React.FC<JsonCardsProps> = ({ articles }) => {
     const query = searchQuery.toLowerCase();
     return (
       article.title.toLowerCase().includes(query) ||
-      article.description.toLowerCase().includes(query) ||
       article.url.toLowerCase().includes(query)
     );
   });
