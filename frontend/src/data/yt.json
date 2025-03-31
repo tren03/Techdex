@@ -76,5 +76,11 @@
     "title": "From Meth To Netflix",
     "url": "https://www.youtube.com/watch?v=JjHFubUPLV0",
     "addedAt": 1743449342
+  },
+  {
+    "id": "357ef7",
+    "title": "Google I/O 2012 - Go Concurrency Patterns",
+    "url": "https://www.youtube.com/watch?v=f6kdp27TYZs",
+    "addedAt": 1743450109
   }
 ]
