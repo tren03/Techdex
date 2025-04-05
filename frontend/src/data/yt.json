@@ -106,5 +106,29 @@
     "title": "Model Context Protocol: A Deep Dive into the future of AI systems",
     "url": "https://www.youtube.com/watch?v=uBL0siiliGo",
     "addedAt": 1743705423
+  },
+  {
+    "id": "8917d9",
+    "title": "From $erverless To Elixir | Prime Reacts",
+    "url": "https://www.youtube.com/watch?v=UGG2HMonQ1c",
+    "addedAt": 1743743115
+  },
+  {
+    "id": "d89966",
+    "title": "Amazon Principal Engineer On Layoffs, Interviewing & Career Growth | Steve Huynh",
+    "url": "https://www.youtube.com/watch?v=RN1Ls69hg5E",
+    "addedAt": 1743745286
+  },
+  {
+    "id": "6d8af8",
+    "title": "How do indexes make databases read faster?",
+    "url": "https://www.youtube.com/watch?v=3G293is403I",
+    "addedAt": 1743756790
+  },
+  {
+    "id": "56b909",
+    "title": "How to safely and gracefully handle timeouts in a microservices",
+    "url": "https://www.youtube.com/watch?v=Hxja4crycBg",
+    "addedAt": 1743757817
   }
 ]
