@@ -19,8 +19,8 @@ jobs:
         id: extract
         run: |
           echo "${{ github.event.issue.body }}" > issue_body.md
-          name=$(grep -i '^Name:' issue_body.md | sed 's/Name:[[:space:]]*//')
-          url=$(grep -i '^Profile URL:' issue_body.md | sed 's/Profile URL:[[:space:]]*//')
+          name=$(awk 'NR == 3' issue_body.md)
+          url=$(awk 'NR == 7' issue_body.md)
           echo "NAME=$name" >> $GITHUB_OUTPUT
           echo "URL=$url" >> $GITHUB_OUTPUT
 
