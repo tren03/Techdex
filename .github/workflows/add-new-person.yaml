@@ -40,14 +40,14 @@ jobs:
              --arg id "$id" \
              --arg date "$date" \
              '. += [{"name": $name, "url": $url, "id": $id, "addedDate": $date}]' \
-             data/ppl.json > tmp.json
+             frontend/src/data/ppl.json > tmp.json
 
-          mv tmp.json data/ppl.json
+          mv tmp.json frontend/src/data/ppl.json
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ppl.json
+          git add frontend/src/data/ppl.json
           git commit -m "Add ${{ steps.extract.outputs.NAME }} via approved issue"
           git push
