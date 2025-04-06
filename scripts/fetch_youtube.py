@@ -26,9 +26,12 @@ def main():
             video_id = item["snippet"]["resourceId"]["videoId"]
             yt_url = f"https://www.youtube.com/watch?v={video_id}"
             added_at_iso = item["snippet"]["publishedAt"]
-            added_at_epoch = int(
-                datetime.strptime(added_at_iso, "%Y-%m-%dT%H:%M:%SZ").timestamp()
-            )
+            added_at_formatted = datetime.strptime(added_at_iso, "%Y-%m-%dT%H:%M:%SZ").strftime("%m/%d/%Y")
+
+            # added_at_epoch = int(
+            #     datetime.strptime(added_at_iso, "%Y-%m-%dT%H:%M:%SZ").timestamp()
+            # )
+
             obj_id = hashlib.sha1(title.encode("utf-8")).hexdigest()
 
             video_info.append(
@@ -36,7 +39,7 @@ def main():
                     "id": obj_id[0:6],
                     "title": title,
                     "url": yt_url,
-                    "addedAt": added_at_epoch,
+                    "addedAt": added_at_formatted,
                 }
             )
 
@@ -46,7 +49,7 @@ def main():
             json.dump(video_info, f, indent=2)
         print(video_info)
     else:
-        print(f"Error: Status code {response.status_code}")
+        print(f"Error: Status code {response.status_code}{response.text}")
 
 
 if __name__ == "__main__":
