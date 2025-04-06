@@ -1,12 +1,14 @@
 # fetch_youtube.py
 import hashlib
-import os
 import json
+import os
 from datetime import datetime
+
 import requests
 from dotenv import load_dotenv
 
 load_dotenv()
+
 
 def main():
     api_key = os.environ.get("YT_API")
@@ -24,15 +26,19 @@ def main():
             video_id = item["snippet"]["resourceId"]["videoId"]
             yt_url = f"https://www.youtube.com/watch?v={video_id}"
             added_at_iso = item["snippet"]["publishedAt"]
-            added_at_epoch = int(datetime.strptime(added_at_iso, "%Y-%m-%dT%H:%M:%SZ").timestamp())
+            added_at_epoch = int(
+                datetime.strptime(added_at_iso, "%Y-%m-%dT%H:%M:%SZ").timestamp()
+            )
             obj_id = hashlib.sha1(title.encode("utf-8")).hexdigest()
 
-            video_info.append({
-                "id": obj_id[0:6],
-                "title": title,
-                "url": yt_url,
-                "addedAt": added_at_epoch
-            })
+            video_info.append(
+                {
+                    "id": obj_id[0:6],
+                    "title": title,
+                    "url": yt_url,
+                    "addedAt": added_at_epoch,
+                }
+            )
 
         output_path = "../frontend/src/data/yt.json"
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -45,4 +51,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
