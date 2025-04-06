@@ -139,7 +139,7 @@ export default function Home() {
                 displayedItems.map((item, index) => (
                   <tr key={item.id} className="bg-gray-800 hover:bg-gray-750">
                     <td className="px-3 py-2">{index + 1}</td>
-                    <td className="px-3 py-2 font-medium">
+                    <td className=" w-9/12 px-3 py-2 font-medium">
                       {activeTab === "links"
                         ? (item as TechLink).title
                         : (item as Person).name}
