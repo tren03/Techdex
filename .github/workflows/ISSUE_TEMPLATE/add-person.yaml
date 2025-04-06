@@ -1,7 +1,7 @@
 name: Add Person
 description: Submit a person to be added to ppl.json
 title: "Add: "
-labels: [add_person]
+labels: ["add_person"]
 body:
   - type: input
     id: name
