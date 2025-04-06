@@ -1,0 +1,69 @@
+name: Add new person based on PR Merge
+
+on:
+  pull_request:
+    types: [closed]
+
+permissions:
+  contents: write
+
+jobs:
+  update-json:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Check if PR is of valid format
+        id: check_submission
+        run: |
+          echo "${{ github.event.pull_request.body }}" > pr_body.md
+          if grep -q "ADD_PERSON" pr_body.md; then
+            echo "add_person=true" >> $GITHUB_OUTPUT
+          else
+            echo "add_person=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Skip if not tool submission
+        if: steps.check_submission.outputs.add_person != 'true'
+        run: echo "PR doesnt follow format, Skipping workflow."
+
+      - name: Extract name and url
+        if: steps.check_submission.outputs.add_person == 'true'
+        id: extract
+        run: |
+          name=$(grep -i '^**name:**' pr_body.md | sed -E 's/\*\*name:\*\*\s*//i' | xargs)
+          url=$(grep -i '^**url:**' pr_body.md | sed -E 's/\*\*url:\*\*\s*//i' | xargs)
+          echo "NAME=$name" >> $GITHUB_OUTPUT
+          echo "URL=$url" >> $GITHUB_OUTPUT
+
+      - name: Append entry to JSON
+        if: steps.check_submission.outputs.add_person == 'true'
+        run: |
+          name="${{ steps.extract.outputs.NAME }}"
+          url="${{ steps.extract.outputs.URL }}"
+          timestamp=$(date +%s)
+          date=$(date +%m/%d/%Y)
+          slug=$(echo "$name" | tr '[:upper:]' '[:lower:]' | tr -cs 'a-z0-9' '-')
+          id="${slug}-${timestamp}"
+
+          echo "Adding: $name, $url, id=$id, addedDate=$date"
+
+          jq --arg name "$name" \
+             --arg url "$url" \
+             --arg id "$id" \
+             --arg date "$date" \
+             '. += [{"name": $name, "url": $url, "id": $id, "addedDate": $date}]' \
+             data/ppl.json > temp.json
+
+          mv temp.json data/ppl.json
+
+      - name: Commit and Push Changes
+        if: steps.check_submission.outputs.add_person == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ppl.json
+          git commit -m "Add ${{ steps.extract.outputs.NAME }} to tools.json"
+          git push
