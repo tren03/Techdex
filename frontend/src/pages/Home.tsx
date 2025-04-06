@@ -24,6 +24,8 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
 
   // Process links, converting addedAt to Date
+  backendLinks.reverse()
+  backendPeople.reverse()
   const [links] = useState<TechLink[]>(() =>
     backendLinks.map((link) => ({
       ...link,
