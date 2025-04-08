@@ -142,5 +142,23 @@
     "title": "Shared Database Pattern in Microservices",
     "url": "https://www.youtube.com/watch?v=tV11trlimLk",
     "addedAt": "04/06/2025"
+  },
+  {
+    "id": "b342c9",
+    "title": "Handmade Hero | new vs delete | struct vs class | How to get fired",
+    "url": "https://www.youtube.com/watch?v=zjkuXtiG1og",
+    "addedAt": "04/07/2025"
+  },
+  {
+    "id": "4102f3",
+    "title": "Virtual Functions in C++",
+    "url": "https://www.youtube.com/watch?v=oIV2KchSyGQ",
+    "addedAt": "04/07/2025"
+  },
+  {
+    "id": "a56c20",
+    "title": "Why do databases store data in B+ trees?",
+    "url": "https://www.youtube.com/watch?v=09E-tVAUqQw",
+    "addedAt": "04/07/2025"
   }
 ]
