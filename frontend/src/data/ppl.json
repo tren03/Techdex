@@ -1,48 +1,48 @@
 [
   {
     "id": "1",
-    "name": "Tony Narlock",
+    "title": "Tony Narlock",
     "url": "https://www.git-pull.com/#",
     "addedAt": "4/6/2025"
   },
   {
     "id": "2",
-    "name": "Jesse Duffield",
+    "title": "Jesse Duffield",
     "url": "https://jesseduffield.com/",
     "addedAt": "4/6/2025"
   },
   {
     "id": "3",
-    "name": "Arpit Bhayani",
+    "title": "Arpit Bhayani",
     "url": "https://arpitbhayani.me/",
     "addedAt": "4/6/2025"
   },
   {
     "id": "4",
-    "name": "ThePrimeagen",
+    "title": "ThePrimeagen",
     "url": "https://www.youtube.com/results?search_query=primeeagen",
     "addedAt": "4/6/2025"
   },
   {
     "id": "5",
-    "name": "Dr Kailash Nadh",
+    "title": "Dr Kailash Nadh",
     "url": "https://nadh.in/",
     "addedAt": "4/6/2025"
   },
   {
-    "name": "Theo",
+    "title": "Theo",
     "url": "https://www.youtube.com/@t3dotgg",
     "id": "theo--1743948146",
     "addedAt": "04/06/2025"
   },
   {
-    "name": "Casey Muratori",
+    "title": "Casey Muratori",
     "url": "https://caseymuratori.com/",
     "id": "casey-muratori--1743962179",
     "addedAt": "04/06/2025"
   },
   {
-    "name": "Michael R. Bernstein",
+    "title": "Michael R. Bernstein",
     "url": "https://michaelrbernste.in/",
     "id": "michael-r-bernstein--1748617026",
     "addedAt": "05/30/2025"
