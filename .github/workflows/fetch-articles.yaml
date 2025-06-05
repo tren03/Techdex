@@ -1,0 +1,48 @@
+name: Merge Sheet Links into JSON
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  merge-links:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        working-directory: scripts
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Get new links from sheets and append to articles.json
+        working-directory: scripts
+        run: python fetch_articles_sheets.py
+
+      - name: Get title of articles who has title field missing in json
+        working-directory: scripts
+        env:
+          PEEKLINK_KEY: ${{ secrets.PEEKLINK_KEY }}
+        run: python fetch_articles_name.py
+
+      - name: Commit and push updated articles.json
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git config --global user.name "link-bot"
+          git config --global user.email "link-bot@example.com"
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}
+          git add frontend/src/data/articles.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update articles JSON [bot]"
+          git push
