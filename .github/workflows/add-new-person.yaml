@@ -39,7 +39,7 @@ jobs:
              --arg url "$url" \
              --arg id "$id" \
              --arg date "$date" \
-             '. += [{"title": $name, "url": $url, "id": $id, "addedAt": $date}]' \
+             '. += [{"title": $title, "url": $url, "id": $id, "addedAt": $date}]' \
              frontend/src/data/ppl.json > tmp.json
 
           mv tmp.json frontend/src/data/ppl.json
