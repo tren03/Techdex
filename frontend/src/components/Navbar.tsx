@@ -12,7 +12,7 @@ export default function Navbar() {
                 {/* Hamburger button (mobile only) */}
                 <button
                     onClick={() => setIsOpen(!isOpen)}
-                    className="sm:hidden text-gray-100 focus:outline-none"
+                    className="lg:hidden text-gray-100 focus:outline-none"
                 >
                     <svg
                         className="w-6 h-6"
@@ -40,7 +40,7 @@ export default function Navbar() {
                 </button>
 
                 {/* Desktop menu */}
-                <div className="hidden sm:flex space-x-6 text-xl">
+                <div className="hidden lg:flex space-x-6 text-xl">
                     <Link to="/" className="hover:text-blue-400 transition-colors">
                         Youtube
                     </Link>
@@ -52,6 +52,9 @@ export default function Navbar() {
                     </Link>
                     <Link to="/papers" className="hover:text-blue-400 transition-colors">
                         Papers
+                    </Link>
+                    <Link to="/my-blogs" className="hover:text-blue-400 transition-colors">
+                        My blogs
                     </Link>
                     <Link to="https://github.com/tren03" target="_blank" className="hover:text-blue-400 transition-colors">
                         GitHub
@@ -61,7 +64,7 @@ export default function Navbar() {
 
             {/* Mobile menu */}
             {isOpen && (
-                <div className="sm:hidden mt-4 flex flex-col space-y-2 text-lg">
+                <div className="lg:hidden mt-4 flex flex-col space-y-2 text-lg">
                     <Link to="/" className="hover:text-blue-400 transition-colors">
                         Youtube
                     </Link>
@@ -73,6 +76,9 @@ export default function Navbar() {
                     </Link>
                     <Link to="/papers" className="hover:text-blue-400 transition-colors">
                         Papers
+                    </Link>
+                    <Link to="/my-blogs" className="hover:text-blue-400 transition-colors">
+                        My blogs
                     </Link>
                     <Link to="https://github.com/tren03" target="_blank" className="hover:text-blue-400 transition-colors">
                         GitHub

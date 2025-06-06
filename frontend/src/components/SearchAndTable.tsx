@@ -3,10 +3,11 @@ import { Item } from "@/models";
 
 interface Props {
     items: Item[];
+    onClickRow?: (item: Item) => void;
 }
 
 export default function SearchAndTable({
-    items,
+    items, onClickRow
 }: Props) {
     const [searchQuery, setSearchQuery] = useState<string>("")
 
@@ -55,7 +56,7 @@ export default function SearchAndTable({
                                 </tr>
                             ) : (
                                 filtered.map((item, index) => (
-                                    <tr key={item.id} className="bg-gray-800 hover:bg-gray-750">
+                                    <tr key={item.id} onClick={() => onClickRow?.(item)} className="bg-gray-800 hover:bg-gray-750">
                                         <td className="px-3 py-2">{index + 1}</td>
                                         <td className="px-3 py-2 font-medium">{item.title}</td>
                                         <td className="px-3 py-2">
@@ -90,6 +91,7 @@ export default function SearchAndTable({
                     filtered.map((item, index) => (
                         <div
                             key={item.id}
+                            onClick={() => onClickRow?.(item)}
                             className="bg-gray-800 rounded p-4 border border-gray-700"
                         >
                             <div className="text-sm text-gray-400 mb-1">#{index + 1}</div>
