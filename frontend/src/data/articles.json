@@ -28,5 +28,23 @@
     "title": "Notes",
     "url": "https://stephenholiday.com/notes/",
     "addedAt": "06/05/2025"
+  },
+  {
+    "id": 392231,
+    "title": "HTTP - The Hard Way with Netcat",
+    "url": "https://arpitbhayani.me/blogs/making-http-requests-using-netcat",
+    "addedAt": "06/07/2025"
+  },
+  {
+    "id": 500825,
+    "title": "The TCP/IP Guide - HTTP Request Message Format",
+    "url": "http://www.tcpipguide.com/free/t_HTTPRequestMessageFormat.htm",
+    "addedAt": "06/07/2025"
+  },
+  {
+    "id": 588211,
+    "title": "C++ Is An Absolute Blast",
+    "url": "https://learncodethehardway.com/blog/31-c-plus-plus-is-an-absolute-blast/",
+    "addedAt": "06/07/2025"
   }
 ]
