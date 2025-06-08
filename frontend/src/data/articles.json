@@ -46,5 +46,23 @@
     "title": "C++ Is An Absolute Blast",
     "url": "https://learncodethehardway.com/blog/31-c-plus-plus-is-an-absolute-blast/",
     "addedAt": "06/07/2025"
+  },
+  {
+    "id": 860104,
+    "title": "How I ship projects at big tech companies",
+    "url": "https://www.seangoedecke.com/how-to-ship/",
+    "addedAt": "06/08/2025"
+  },
+  {
+    "id": 387136,
+    "title": "Why does AI slop feel so bad to read?",
+    "url": "https://www.seangoedecke.com/on-slop/",
+    "addedAt": "06/08/2025"
+  },
+  {
+    "id": 285970,
+    "title": "Table of Contents for Full Stack Python",
+    "url": "https://www.fullstackpython.com/table-of-contents.html",
+    "addedAt": "06/08/2025"
   }
 ]
