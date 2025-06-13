@@ -70,5 +70,11 @@
     "title": "Bloom Filters Explained",
     "url": "https://systemdesign.one/bloom-filters-explained/",
     "addedAt": "06/09/2025"
+  },
+  {
+    "id": 942904,
+    "title": "Mistakes engineers make in large established codebases",
+    "url": "https://www.seangoedecke.com/large-established-codebases/",
+    "addedAt": "06/13/2025"
   }
 ]
