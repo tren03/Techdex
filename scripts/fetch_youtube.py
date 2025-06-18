@@ -1,4 +1,3 @@
-# fetch_youtube.py
 import hashlib
 import json
 import os
@@ -10,46 +9,64 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-def main():
-    api_key = os.environ.get("YT_API")
-    playlist_id = "PLkoraQhs622SHMColalnQDomOlcMz9bzX"
+def fetch_all_videos(api_key, playlist_id):
+    all_videos = []
+    page_token = None
 
-    url = f"https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId={playlist_id}&maxResults=100&key={api_key}"
+    while True:
+        url = (
+            f"https://youtube.googleapis.com/youtube/v3/playlistItems"
+            f"?part=snippet&playlistId={playlist_id}&maxResults=50&key={api_key}"
+        )
+        if page_token:
+            url += f"&pageToken={page_token}"
 
-    response = requests.get(url, timeout=10)
-    if response.status_code == 200:
-        videos = response.json()
-        video_info = []
+        response = requests.get(url, timeout=10)
+        if response.status_code != 200:
+            raise Exception(f"Error: {response.status_code} {response.text}")
 
-        for item in videos["items"]:
-            title = item["snippet"]["title"]
-            video_id = item["snippet"]["resourceId"]["videoId"]
+        data = response.json()
+        items = data.get("items", [])
+
+        for item in items:
+            snippet = item["snippet"]
+            title = snippet["title"]
+            video_id = snippet["resourceId"]["videoId"]
             yt_url = f"https://www.youtube.com/watch?v={video_id}"
-            added_at_iso = item["snippet"]["publishedAt"]
-            added_at_formatted = datetime.strptime(added_at_iso, "%Y-%m-%dT%H:%M:%SZ").strftime("%m/%d/%Y")
-
-            # added_at_epoch = int(
-            #     datetime.strptime(added_at_iso, "%Y-%m-%dT%H:%M:%SZ").timestamp()
-            # )
+            added_at_iso = snippet["publishedAt"]
+            added_at_formatted = datetime.strptime(
+                added_at_iso, "%Y-%m-%dT%H:%M:%SZ"
+            ).strftime("%m/%d/%Y")
 
             obj_id = hashlib.sha1(title.encode("utf-8")).hexdigest()
-
-            video_info.append(
+            all_videos.append(
                 {
-                    "id": obj_id[0:6],
+                    "id": obj_id[:6],
                     "title": title,
                     "url": yt_url,
                     "addedAt": added_at_formatted,
                 }
             )
 
-        output_path = "../frontend/src/data/yt.json"
-        os.makedirs(os.path.dirname(output_path), exist_ok=True)
-        with open(output_path, "w") as f:
-            json.dump(video_info, f, indent=2)
-        print(video_info)
-    else:
-        print(f"Error: Status code {response.status_code}{response.text}")
+        page_token = data.get("nextPageToken")
+        if not page_token:
+            break
+
+    return all_videos
+
+
+def main():
+    api_key = os.environ.get("YT_API")
+    playlist_id = "PLkoraQhs622SHMColalnQDomOlcMz9bzX"
+
+    videos = fetch_all_videos(api_key, playlist_id)
+
+    output_path = "../frontend/src/data/yt.json"
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with open(output_path, "w") as f:
+        json.dump(videos, f, indent=2)
+
+    print(f"Fetched {len(videos)} videos.")
 
 
 if __name__ == "__main__":
