@@ -14,7 +14,7 @@ def main():
     api_key = os.environ.get("YT_API")
     playlist_id = "PLkoraQhs622SHMColalnQDomOlcMz9bzX"
 
-    url = f"https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId={playlist_id}&maxResults=50&key={api_key}"
+    url = f"https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId={playlist_id}&maxResults=100&key={api_key}"
 
     response = requests.get(url, timeout=10)
     if response.status_code == 200:
