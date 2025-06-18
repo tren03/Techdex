@@ -298,5 +298,47 @@
     "title": "Shipping projects at Big Tech with Sean Goedecke",
     "url": "https://www.youtube.com/watch?v=IekJKQ-AvkM",
     "addedAt": "06/09/2025"
+  },
+  {
+    "id": "036472",
+    "title": "Build a robust Payments service using Idempotency Keys",
+    "url": "https://www.youtube.com/watch?v=m6DtqSb1BDM",
+    "addedAt": "06/10/2025"
+  },
+  {
+    "id": "f6af9c",
+    "title": "Making A Browser Is Harder Than You Think (Ft Andreas Kling)",
+    "url": "https://www.youtube.com/watch?v=z1Eq0xlVs3g",
+    "addedAt": "06/11/2025"
+  },
+  {
+    "id": "24c946",
+    "title": "The Greatest Software Engineers of All Time",
+    "url": "https://www.youtube.com/watch?v=ngjkJN9RKgA",
+    "addedAt": "06/11/2025"
+  },
+  {
+    "id": "faf9d4",
+    "title": "99% of AI start ups will be Dead by 2026",
+    "url": "https://www.youtube.com/watch?v=I10_O47P7Zs",
+    "addedAt": "06/12/2025"
+  },
+  {
+    "id": "4a7cbe",
+    "title": "Linux Dev on Rust, OSS and Rewriting SQLite",
+    "url": "https://www.youtube.com/watch?v=biBLEKm2dtY",
+    "addedAt": "06/13/2025"
+  },
+  {
+    "id": "9a06df",
+    "title": "Google's Staff Engineer talks about Hiring, Interviews and Job market | Meet @AsliEngineering",
+    "url": "https://www.youtube.com/watch?v=E5zXCY63WpU",
+    "addedAt": "06/17/2025"
+  },
+  {
+    "id": "ccbd04",
+    "title": "Why most TCP servers are multi threaded and how to build one from scratch",
+    "url": "https://www.youtube.com/watch?v=f9gUFy-9uCM",
+    "addedAt": "06/18/2025"
   }
 ]
