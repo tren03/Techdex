@@ -82,5 +82,17 @@
     "title": "Motherfucking Website",
     "url": "https://motherfuckingwebsite.com/",
     "addedAt": "06/18/2025"
+  },
+  {
+    "id": 818168,
+    "title": "Catching Compromised Cookies - Engineering at Slack",
+    "url": "https://slack.engineering/catching-compromised-cookies/",
+    "addedAt": "06/19/2025"
+  },
+  {
+    "id": 205262,
+    "title": "ChatGPT Has Already Polluted the Internet So Badly That It's Hobbling Future AI Development",
+    "url": "https://futurism.com/chatgpt-polluted-ruined-ai-development",
+    "addedAt": "06/19/2025"
   }
 ]
