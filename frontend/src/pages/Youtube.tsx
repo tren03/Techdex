@@ -11,6 +11,7 @@ export default function Youtube() {
                 id: entry.id,
                 title: entry.title,
                 url: entry.url,
+                summary: entry.summary,
                 addedAt: new Date(entry.addedAt),
             })),
         []

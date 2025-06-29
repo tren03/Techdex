@@ -1,0 +1,368 @@
+[
+  {
+    "id": "eaae84",
+    "title": "Impeccable API Design: What you MUST CONSIDER before deploying APIs to production",
+    "url": "https://www.youtube.com/watch?v=FqljO9B5grM",
+    "addedAt": "03/12/2025"
+  },
+  {
+    "id": "731d1a",
+    "title": "Design Microservice Architectures the Right Way",
+    "url": "https://www.youtube.com/watch?v=j6ow-UemzBc",
+    "addedAt": "03/12/2025"
+  },
+  {
+    "id": "cac546",
+    "title": "20 Whitepapers that changed the world [For Senior Software Engineers]",
+    "url": "https://www.youtube.com/watch?v=WWGM4hY34pI",
+    "addedAt": "03/12/2025"
+  },
+  {
+    "id": "826373",
+    "title": "System Design Primer \u2b50\ufe0f: How to start with distributed systems?",
+    "url": "https://www.youtube.com/watch?v=SqcXvc3ZmRU",
+    "addedAt": "03/13/2025"
+  },
+  {
+    "id": "72881b",
+    "title": "Razorpay's Journey to Microservices w/ Arjun | Ep 1",
+    "url": "https://www.youtube.com/watch?v=yqkyq8TPWbg",
+    "addedAt": "03/14/2025"
+  },
+  {
+    "id": "b32f73",
+    "title": "How to learn better and faster as a software engineer?",
+    "url": "https://www.youtube.com/watch?v=Je5WBk91Wlc",
+    "addedAt": "03/17/2025"
+  },
+  {
+    "id": "91056d",
+    "title": "From an Engineer to Google SVP: My Career Tips and Advice",
+    "url": "https://www.youtube.com/watch?v=MtV8MQs7sw4",
+    "addedAt": "03/19/2025"
+  },
+  {
+    "id": "edc5f0",
+    "title": "Mastering Chaos - A Netflix Guide to Microservices",
+    "url": "https://www.youtube.com/watch?v=CZ3wIuvmHeM",
+    "addedAt": "03/19/2025"
+  },
+  {
+    "id": "ca276b",
+    "title": "How to decide which technology to learn and invest time in?",
+    "url": "https://www.youtube.com/watch?v=z8m_iKCPTaQ",
+    "addedAt": "03/22/2025"
+  },
+  {
+    "id": "698ba4",
+    "title": "ThePrimeagen: Programming, AI, ADHD, Productivity, Addiction, and God | Lex Fridman Podcast #461",
+    "url": "https://www.youtube.com/watch?v=tNZnLkRBYA8",
+    "addedAt": "03/22/2025"
+  },
+  {
+    "id": "9f9173",
+    "title": "Repository Pattern in Go - How to Structure your Projects",
+    "url": "https://www.youtube.com/watch?v=eE8nqgryW_8",
+    "addedAt": "03/23/2025"
+  },
+  {
+    "id": "ad70d7",
+    "title": "From Meth To Netflix",
+    "url": "https://www.youtube.com/watch?v=JjHFubUPLV0",
+    "addedAt": "03/31/2025"
+  },
+  {
+    "id": "357ef7",
+    "title": "Google I/O 2012 - Go Concurrency Patterns",
+    "url": "https://www.youtube.com/watch?v=f6kdp27TYZs",
+    "addedAt": "03/31/2025"
+  },
+  {
+    "id": "423f8b",
+    "title": "Serverless: A Comprehensive Breakdown",
+    "url": "https://www.youtube.com/watch?v=_VQl_HTk9PM",
+    "addedAt": "04/02/2025"
+  },
+  {
+    "id": "79aaba",
+    "title": "Learn Git - The Full Course",
+    "url": "https://www.youtube.com/watch?v=rH3zE7VlIMs",
+    "addedAt": "04/02/2025"
+  },
+  {
+    "id": "38fbb4",
+    "title": "The Primeagen on \"Developer Excellence\" | Laracon US 2024 at Dallas, TX",
+    "url": "https://www.youtube.com/watch?v=96VlfN7ViyE",
+    "addedAt": "04/02/2025"
+  },
+  {
+    "id": "0d2317",
+    "title": "Guide To Work In A Company 2024 | Must Watch | Salaries, Equity, Raises, Negotiations",
+    "url": "https://www.youtube.com/watch?v=0kgKMdSzVbE",
+    "addedAt": "04/02/2025"
+  },
+  {
+    "id": "14d309",
+    "title": "Model Context Protocol: A Deep Dive into the future of AI systems",
+    "url": "https://www.youtube.com/watch?v=uBL0siiliGo",
+    "addedAt": "04/03/2025"
+  },
+  {
+    "id": "8917d9",
+    "title": "From $erverless To Elixir | Prime Reacts",
+    "url": "https://www.youtube.com/watch?v=UGG2HMonQ1c",
+    "addedAt": "04/04/2025"
+  },
+  {
+    "id": "be2566",
+    "title": "Amazon Principal Engineer (L7) On Layoffs, Interviewing & Career Growth | Steve Huynh",
+    "url": "https://www.youtube.com/watch?v=RN1Ls69hg5E",
+    "addedAt": "04/04/2025"
+  },
+  {
+    "id": "6d8af8",
+    "title": "How do indexes make databases read faster?",
+    "url": "https://www.youtube.com/watch?v=3G293is403I",
+    "addedAt": "04/04/2025"
+  },
+  {
+    "id": "56b909",
+    "title": "How to safely and gracefully handle timeouts in a microservices",
+    "url": "https://www.youtube.com/watch?v=Hxja4crycBg",
+    "addedAt": "04/04/2025"
+  },
+  {
+    "id": "7609fb",
+    "title": "Prime Reacts - Why I Stopped Using AI Code Editors",
+    "url": "https://www.youtube.com/watch?v=y3_TY4K8hVE",
+    "addedAt": "04/05/2025"
+  },
+  {
+    "id": "e934dc",
+    "title": "Shared Database Pattern in Microservices",
+    "url": "https://www.youtube.com/watch?v=tV11trlimLk",
+    "addedAt": "04/06/2025"
+  },
+  {
+    "id": "b342c9",
+    "title": "Handmade Hero | new vs delete | struct vs class | How to get fired",
+    "url": "https://www.youtube.com/watch?v=zjkuXtiG1og",
+    "addedAt": "04/07/2025"
+  },
+  {
+    "id": "4102f3",
+    "title": "Virtual Functions in C++",
+    "url": "https://www.youtube.com/watch?v=oIV2KchSyGQ",
+    "addedAt": "04/07/2025"
+  },
+  {
+    "id": "a56c20",
+    "title": "Why do databases store data in B+ trees?",
+    "url": "https://www.youtube.com/watch?v=09E-tVAUqQw",
+    "addedAt": "04/07/2025"
+  },
+  {
+    "id": "58fbd1",
+    "title": "Unexpected Lessons I've Learned After 15 Years Of Coding",
+    "url": "https://www.youtube.com/watch?v=3h7Lc85RDLo",
+    "addedAt": "04/08/2025"
+  },
+  {
+    "id": "365877",
+    "title": "The Insanity of Being a Software Engineer - Prime Reacts",
+    "url": "https://www.youtube.com/watch?v=sjeie9Y7AZk",
+    "addedAt": "04/12/2025"
+  },
+  {
+    "id": "eff721",
+    "title": "What is DDD - Eric Evans - DDD Europe 2019",
+    "url": "https://www.youtube.com/watch?v=pMuiVlnGqjk",
+    "addedAt": "04/14/2025"
+  },
+  {
+    "id": "3f2036",
+    "title": "Why Can't We Make Simple Software? - Peter van Hardenberg",
+    "url": "https://www.youtube.com/watch?v=czzAVuVz7u4",
+    "addedAt": "04/15/2025"
+  },
+  {
+    "id": "4009db",
+    "title": "The Best Programmers I Know - Prime Reacts",
+    "url": "https://www.youtube.com/watch?v=5La12L8g1Ys",
+    "addedAt": "04/17/2025"
+  },
+  {
+    "id": "a2ca26",
+    "title": "DDD & LLMs - Eric Evans - DDD Europe",
+    "url": "https://www.youtube.com/watch?v=lrSB9gEUJEQ",
+    "addedAt": "04/17/2025"
+  },
+  {
+    "id": "f4c01b",
+    "title": "How to be a great programmer | Travis Oliphant and Lex Fridman",
+    "url": "https://www.youtube.com/watch?v=XklQac5WLs4",
+    "addedAt": "04/18/2025"
+  },
+  {
+    "id": "9d2421",
+    "title": "Being a good engineer kinda sucks",
+    "url": "https://www.youtube.com/watch?v=3VuM1GCadt4",
+    "addedAt": "04/28/2025"
+  },
+  {
+    "id": "917a1d",
+    "title": "How I use A.I. to rewire my brain and destroy bad habits (steal my formula)",
+    "url": "https://www.youtube.com/watch?v=t6Y0fPW80MI",
+    "addedAt": "05/06/2025"
+  },
+  {
+    "id": "8ed9c5",
+    "title": "Everything is a wrapper now",
+    "url": "https://www.youtube.com/watch?v=DO4F4ZQG020",
+    "addedAt": "05/07/2025"
+  },
+  {
+    "id": "1e8643",
+    "title": "JUST USE HTML",
+    "url": "https://www.youtube.com/watch?v=jnY61ywnBHM",
+    "addedAt": "05/15/2025"
+  },
+  {
+    "id": "d67f40",
+    "title": "5 Things India Should Learn From Silicon Valley",
+    "url": "https://www.youtube.com/watch?v=vgr8Rxjx3sI",
+    "addedAt": "05/17/2025"
+  },
+  {
+    "id": "8d67f0",
+    "title": "Should you become a full stack developer?",
+    "url": "https://www.youtube.com/watch?v=6X3cG-C9vzs",
+    "addedAt": "05/17/2025"
+  },
+  {
+    "id": "2b4d02",
+    "title": "I never saw this coming",
+    "url": "https://www.youtube.com/watch?v=7Lf0jEgz9BA",
+    "addedAt": "05/21/2025"
+  },
+  {
+    "id": "84ccd7",
+    "title": "I'VE HAD ENOUGH!!!",
+    "url": "https://www.youtube.com/watch?v=KewNj_sJ9Bs",
+    "addedAt": "05/21/2025"
+  },
+  {
+    "id": "2ea10e",
+    "title": "Why Everything  Is Making You Feel Bored",
+    "url": "https://www.youtube.com/watch?v=8uoJNv9ufjM",
+    "addedAt": "05/22/2025"
+  },
+  {
+    "id": "4add65",
+    "title": "Actually, everything is a wrapper\u2026",
+    "url": "https://www.youtube.com/watch?v=hRKlffMezxQ",
+    "addedAt": "06/02/2025"
+  },
+  {
+    "id": "017690",
+    "title": "Google Borg: Billions of Distributed Linux Containers",
+    "url": "https://www.youtube.com/watch?v=l35hqwTY5W0",
+    "addedAt": "06/03/2025"
+  },
+  {
+    "id": "c08f89",
+    "title": "How to start your writing journey as a software engineer",
+    "url": "https://www.youtube.com/watch?v=SZmPgTozvcI",
+    "addedAt": "06/04/2025"
+  },
+  {
+    "id": "071f9c",
+    "title": "Are junior devs screwed?",
+    "url": "https://www.youtube.com/watch?v=76K2r2UFeM4",
+    "addedAt": "06/04/2025"
+  },
+  {
+    "id": "494418",
+    "title": "Working at Amazon as a software engineer \u2013 with Dave Anderson",
+    "url": "https://www.youtube.com/watch?v=o1-BUCdog1c",
+    "addedAt": "06/05/2025"
+  },
+  {
+    "id": "b7c6ff",
+    "title": "DHH IS RIGHT ABOUT EVERYTHING (Again)?",
+    "url": "https://www.youtube.com/watch?v=EIBxRMH4bvs",
+    "addedAt": "06/07/2025"
+  },
+  {
+    "id": "4bfd02",
+    "title": "Shipping projects at Big Tech with Sean Goedecke",
+    "url": "https://www.youtube.com/watch?v=IekJKQ-AvkM",
+    "addedAt": "06/09/2025"
+  },
+  {
+    "id": "036472",
+    "title": "Build a robust Payments service using Idempotency Keys",
+    "url": "https://www.youtube.com/watch?v=m6DtqSb1BDM",
+    "addedAt": "06/10/2025"
+  },
+  {
+    "id": "f6af9c",
+    "title": "Making A Browser Is Harder Than You Think (Ft Andreas Kling)",
+    "url": "https://www.youtube.com/watch?v=z1Eq0xlVs3g",
+    "addedAt": "06/11/2025"
+  },
+  {
+    "id": "24c946",
+    "title": "The Greatest Software Engineers of All Time",
+    "url": "https://www.youtube.com/watch?v=ngjkJN9RKgA",
+    "addedAt": "06/11/2025"
+  },
+  {
+    "id": "faf9d4",
+    "title": "99% of AI start ups will be Dead by 2026",
+    "url": "https://www.youtube.com/watch?v=I10_O47P7Zs",
+    "addedAt": "06/12/2025"
+  },
+  {
+    "id": "4a7cbe",
+    "title": "Linux Dev on Rust, OSS and Rewriting SQLite",
+    "url": "https://www.youtube.com/watch?v=biBLEKm2dtY",
+    "addedAt": "06/13/2025"
+  },
+  {
+    "id": "9a06df",
+    "title": "Google's Staff Engineer talks about Hiring, Interviews and Job market | Meet @AsliEngineering",
+    "url": "https://www.youtube.com/watch?v=E5zXCY63WpU",
+    "addedAt": "06/17/2025"
+  },
+  {
+    "id": "ccbd04",
+    "title": "Why most TCP servers are multi threaded and how to build one from scratch",
+    "url": "https://www.youtube.com/watch?v=f9gUFy-9uCM",
+    "addedAt": "06/18/2025"
+  },
+  {
+    "id": "9bcda7",
+    "title": "\"Vibe Coding\" Is A Stupid Trend",
+    "url": "https://www.youtube.com/watch?v=7ePiGthZq2w",
+    "addedAt": "06/19/2025"
+  },
+  {
+    "id": "6a7936",
+    "title": "How I reduced 90% errors for my Cursor (+ any other AI IDE)",
+    "url": "https://www.youtube.com/watch?v=1L509JK8p1I",
+    "addedAt": "06/24/2025"
+  },
+  {
+    "id": "50d080",
+    "title": "What is a Vector Database? Powering Semantic Search & AI Applications",
+    "url": "https://www.youtube.com/watch?v=gl1r1XV0SLw",
+    "addedAt": "06/26/2025"
+  },
+  {
+    "id": "29afb8",
+    "title": "Gemini\u2019s Claude Code killer is FREE??",
+    "url": "https://www.youtube.com/watch?v=ftGPty-dQR8",
+    "addedAt": "06/26/2025"
+  }
+]

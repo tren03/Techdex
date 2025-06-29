@@ -42,6 +42,20 @@ jobs:
           YT_API: ${{ secrets.YT_API }}
         run: python fetch_youtube.py
 
+      - name: Fetch YouTube transcripts
+        working-directory: scripts
+        run: |
+          python fetch_yt_transcript.py
+
+      - name: Generate summaries for YouTube videos
+        working-directory: scripts
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python -c "
+from summary_functions import process_yt_articles
+process_yt_articles('../frontend/src/data/yt.json')
+"
+
       - name: Commit and push changes
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
