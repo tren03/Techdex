@@ -36,6 +36,12 @@ jobs:
           PEEKLINK_KEY: ${{ secrets.PEEKLINK_KEY }}
         run: python fetch_articles_name.py
 
+      - name: Generate summaries for articles missing summary
+        working-directory: scripts
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python fetch_and_summarize_articles.py
+
       - name: Commit and push updated articles.json
         env:
           GH_PAT: ${{ secrets.GH_PAT }}

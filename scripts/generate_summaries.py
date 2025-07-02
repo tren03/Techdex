@@ -43,7 +43,7 @@ def generate_summary_with_gemini(
         Title: {title}
         
         {content_type.capitalize()}:
-        {content}  # Limit content length to avoid token limits
+        {content}  
         
         Please provide a summary in 2-3 paragraphs (around 200-300 words) that captures the main content and value.
         """
