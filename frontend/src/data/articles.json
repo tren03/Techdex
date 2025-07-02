@@ -124,5 +124,11 @@
     "title": "Learn to become a Go developer",
     "url": "https://roadmap.sh/golang",
     "addedAt": "06/27/2025"
+  },
+  {
+    "id": 153384,
+    "title": "Code a simple RAG from scratch",
+    "url": "https://huggingface.co/blog/ngxson/make-your-own-rag",
+    "addedAt": "07/02/2025"
   }
 ]
