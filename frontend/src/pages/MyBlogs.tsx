@@ -23,7 +23,7 @@ export default function MyBlogs() {
             <h1 className="my-4 text-center font-bold text-3xl ">
                 My Blogs
             </h1>
-            <SearchAndTable items={blogs.reverse()} onClickRow={(item) => navigate(`/b/${item.url}`)} />
+            <SearchAndTable items={blogs.reverse()} onClickRow={(item) => navigate(`/${item.url}`)} />
         </div>
     );
 }
