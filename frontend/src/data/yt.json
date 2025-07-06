@@ -518,5 +518,37 @@
     "addedAt": "07/03/2025",
     "transcript": null,
     "summary": ""
+  },
+  {
+    "id": "636f3f",
+    "title": "12-Factor Agents: Patterns of reliable LLM applications — Dex Horthy, HumanLayer",
+    "url": "https://www.youtube.com/watch?v=8kMaTybvDUw",
+    "addedAt": "07/05/2025",
+    "transcript": null,
+    "summary": ""
+  },
+  {
+    "id": "550128",
+    "title": "The latest LLM research shows how they are getting SMARTER and FASTER.",
+    "url": "https://www.youtube.com/watch?v=_Y3BfN9v3sA",
+    "addedAt": "07/05/2025",
+    "transcript": null,
+    "summary": ""
+  },
+  {
+    "id": "21b5cd",
+    "title": "10 steps in the career of a software engineer: From SDE-1 to Principal Engineer",
+    "url": "https://www.youtube.com/watch?v=x9nkpgV-wcI",
+    "addedAt": "07/05/2025",
+    "transcript": null,
+    "summary": ""
+  },
+  {
+    "id": "4a0a15",
+    "title": "How I built an AI Teacher with Vector Databases and ChatGPT",
+    "url": "https://www.youtube.com/watch?v=Z3uWleYwOQA",
+    "addedAt": "07/05/2025",
+    "transcript": null,
+    "summary": ""
   }
 ]
