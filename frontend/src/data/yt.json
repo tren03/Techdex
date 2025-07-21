@@ -646,5 +646,29 @@
     "addedAt": "07/17/2025",
     "transcript": null,
     "summary": ""
+  },
+  {
+    "id": "e2a041",
+    "title": "Why You Shouldn't Nest Your Code",
+    "url": "https://www.youtube.com/watch?v=CFRhGnuXG-4",
+    "addedAt": "07/20/2025",
+    "transcript": null,
+    "summary": ""
+  },
+  {
+    "id": "1d34e5",
+    "title": "Bounded Contexts - Eric Evans - DDD Europe 2020",
+    "url": "https://www.youtube.com/watch?v=am-HXycfalo",
+    "addedAt": "07/20/2025",
+    "transcript": null,
+    "summary": ""
+  },
+  {
+    "id": "b04d90",
+    "title": "John Carmack on Work-Life Balance",
+    "url": "https://www.youtube.com/watch?v=wIvHkaV6Ri8",
+    "addedAt": "07/20/2025",
+    "transcript": null,
+    "summary": ""
   }
 ]
