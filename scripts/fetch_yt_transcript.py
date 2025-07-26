@@ -2,6 +2,7 @@ import json
 import os
 import re
 
+from generate_summaries import generate_summary_with_gemini, setup_gemini_api
 from youtube_transcript_api import YouTubeTranscriptApi
 
 
@@ -41,6 +42,13 @@ def extract_video_id_from_url(url):
             return match.group(1)
 
     return None
+
+
+def get_transcript_for_url(url):
+    """
+    Gets transcript from url
+    """
+    return get_video_transcript(extract_video_id_from_url(url))
 
 
 def load_transcripts_from_json(json_file_path, output_file_path=None):
@@ -104,7 +112,7 @@ def load_transcripts_from_json(json_file_path, output_file_path=None):
 
 def main():
     # Default paths
-    json_file_path = "../frontend/src/data/yt.json"
+    json_file_path = "../frontend/src/data/yt_no_transcript.json"
 
     # Check if file exists
     if not os.path.exists(json_file_path):
@@ -113,10 +121,66 @@ def main():
             "Please make sure the yt_with_transcripts.json file exists in the frontend/src/data/ directory"
         )
         return
-    output_file_path = "../frontend/src/data/yt.json"
 
-    # Load transcripts
-    load_transcripts_from_json(json_file_path, output_file_path)
+    # for each video, we will fetch transcript -> send it to gemini,
+    # get the summary as save as json in one flow
+
+    # get vids that need summary
+    yt_vids_to_get_summary = []
+    with open(json_file_path, "r", encoding="utf-8") as f:
+        yt_vids = json.load(f)
+        for vids in yt_vids:
+            if vids.get("summary") == None:
+                vids["summary"] = ""
+            if vids.get("summary") == "":
+                yt_vids_to_get_summary.append(vids)
+
+    print(f"attempting to fetch summaries for {len(yt_vids_to_get_summary)}")
+
+    # now we can process all the videos without summary, or summary field missing
+    total_vids = len(yt_vids_to_get_summary)
+    i = 1
+    for vid in yt_vids_to_get_summary:
+        print(vid)
+        try:
+            url = vid.get("url")
+            title = vid.get("title")
+            if not url or not title:
+                raise KeyError()
+        except KeyError as e:
+            print("url/title not present in vid object")
+            raise e from e
+
+        transcript = get_transcript_for_url(url)
+        if not transcript:
+            print(f"could not fetch transcript for video {title}")
+        print(f"fetching summary for {title} {i}/{total_vids}")
+        summary = ""
+        if transcript:
+            gemini_client = setup_gemini_api()
+            summary = generate_summary_with_gemini(
+                client=gemini_client,
+                content=transcript,
+                title=title,
+                content_type="Youtube transcript",
+            )
+            print(summary)
+        vid["summary"] = summary
+        i += 1
+
+    # update only the objects that need summary update and write to file
+    with open(json_file_path, "r+", encoding="utf-8") as f:
+        yt_vids = json.load(f)
+        for vids in yt_vids:
+            for new_vids in yt_vids_to_get_summary:
+                if vids["url"] == new_vids["url"]:
+                    if vids.get("summary") is None:
+                        vids["summary"] = ""
+                    vids["summary"] = new_vids["summary"]
+
+    with open(json_file_path, "w", encoding="utf-8") as f:
+        json.dump(yt_vids, f, indent=2)
+
 
 if __name__ == "__main__":
     main()
