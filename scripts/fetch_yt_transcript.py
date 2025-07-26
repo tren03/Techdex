@@ -112,7 +112,7 @@ def load_transcripts_from_json(json_file_path, output_file_path=None):
 
 def main():
     # Default paths
-    json_file_path = "../frontend/src/data/yt_no_transcript.json"
+    json_file_path = "../frontend/src/data/yt.json"
 
     # Check if file exists
     if not os.path.exists(json_file_path):
