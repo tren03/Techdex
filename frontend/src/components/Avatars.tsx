@@ -91,7 +91,6 @@ export default function InstantAvatarStack() {
 function Avatar({
     emoji,
     color,
-    name,
     pokemonName,
 }: {
     emoji: string;
