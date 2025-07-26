@@ -10,7 +10,7 @@ from google import genai
 load_dotenv()
 
 
-def setup_gemini_api(api_key: str):
+def setup_gemini_api(api_key=os.getenv("GEMINI_API_KEY")):
     """
     Setup Gemini API with the provided API key
     """
@@ -190,4 +190,3 @@ def save_json_file(items: List[Dict[str, Any]], file_path: str) -> bool:
     except Exception as e:
         print(f"Error saving file: {e}")
         return False
-
