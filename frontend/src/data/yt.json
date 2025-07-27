@@ -614,5 +614,12 @@
     "url": "https://www.youtube.com/watch?v=18V3lFePdWU",
     "addedAt": "07/26/2025",
     "summary": "This YouTube video provides an in-depth walkthrough of using AI, specifically Claude Code, to implement designs. The creator emphasizes that AI typically only gets around 60% of a design right initially and focuses on strategies for tackling the remaining 40%. The core of the video involves a live demonstration of implementing a book summary app design from Mobin in Swift, using Claude Code. The creator highlights the importance of dictating specific prompts, providing screenshots, and manually correcting issues section by section, rather than expecting the AI to perfectly replicate the design in one go. Multiple instances of Claude Code can be used to work on different parts of the app in parallel to speed up development.\n\nThe video also covers advanced techniques like generating placeholder images with AI web search capabilities, prototyping animations, and using AI to explore alternative design variations. The presenter demonstrates how to prompt the AI for complex animations, like a book opening, and iterating on it to achieve the desired effect. The creator also explores the potential for AI to act as a \"design partner,\" offering unexpected and creative solutions during the implementation process. Despite acknowledging that manual coding may be faster for very small tasks, the presenter asserts that the AI-assisted approach is significantly faster overall, especially when considering experimentation and creative exploration.\n\nFinally, the video presents a benchmark comparison of three AI tools\u2014Cursor, Warp, and Claude Code\u2014in their ability to implement designs from screenshots. The tests reveal that Claude Code generally performs best at following design details, though each tool has its own strengths and weaknesses. The presenter concludes by encouraging viewers to experiment with these techniques and emphasizes the value of AI in streamlining the design implementation workflow. The video showcases a pragmatic approach to AI-assisted development, focusing on iterative refinement and leveraging the AI's creative potential."
+  },
+  {
+    "id": "ed1916",
+    "title": "AI \u201cDestroys\u201d Months of Work",
+    "url": "https://www.youtube.com/watch?v=ACySmbsgph8",
+    "addedAt": "07/26/2025",
+    "summary": ""
   }
 ]
