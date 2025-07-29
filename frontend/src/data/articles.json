@@ -243,5 +243,11 @@
     "url": "https://seangoedecke.com/llm-user-virtues/",
     "addedAt": "07/25/2025",
     "summary": "This website discusses how the traditional \"virtues\" of a programmer \u2013 laziness, impatience, and hubris \u2013 are becoming vices when working with AI-assisted coding tools. While these traits might initially drive a programmer to leverage AI for automation and faster results, they can also lead to a reliance on AI that ultimately decreases efficiency and understanding. The author argues that a programmer can fall into a \"slot-machine coding\" pattern, blindly prompting the AI without actively engaging with the problem-solving process. This can result in a dependency on potentially flawed AI-generated solutions and distract from the programmer's own critical thinking and problem-solving abilities.\n\nInstead of relying on the old virtues, the author proposes three new virtues for the AI-assisted programmer: obsession, impatience, and suspicion. \"Obsession\" encourages a programmer to actively think about the problem and understand the solutions alongside the AI, rather than passively waiting for AI outputs. \"Impatience\" suggests that programmers should jump in and fix near-perfect solutions themselves rather than spending excessive time prompting the AI. Finally, \"suspicion\" emphasizes the need to meticulously verify AI-generated code because AI can easily make mistakes that a human would be unlikely to do.\n\nIn essence, the author argues that the best AI-assisted programmers will be \"centaurs,\" combining the strengths of AI with their own expertise. By remaining actively engaged, being willing to manually refine AI outputs, and critically evaluating AI-generated code, programmers can leverage AI to augment their abilities without sacrificing their understanding and control. This approach moves away from blindly trusting AI and toward a collaborative partnership where the human programmer's knowledge and judgment remain central to the development process."
+  },
+  {
+    "id": 584345,
+    "title": "Context7 - Up-to-date documentation for LLMs and AI code editors",
+    "url": "https://context7.com/",
+    "addedAt": "07/29/2025"
   }
 ]
