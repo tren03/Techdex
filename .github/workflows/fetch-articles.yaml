@@ -49,6 +49,7 @@ jobs:
           git config --global user.name "link-bot"
           git config --global user.email "link-bot@example.com"
           git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}
+          git pull origin main 
           git add frontend/src/data/articles.json
           git diff --quiet && git diff --staged --quiet || git commit -m "Update articles JSON [bot]"
           git push
