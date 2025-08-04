@@ -656,5 +656,26 @@
     "url": "https://www.youtube.com/watch?v=npfUPhu2aZg",
     "addedAt": "07/31/2025",
     "summary": "The video dissects the Tea app's recent security breach, arguing that it's not a result of \"vibe coding\" (using AI tools without proper understanding), but rather fundamentally poor design choices, particularly related to their use of Firebase. The speaker asserts that Tea's data leak, which exposed sensitive user data like photos and IDs, stemmed from publicly accessible Firebase file storage and exposed Firebase APIs. Attackers were able to access a listing of all the file URLs due to an insecure endpoint, highlighting a critical flaw in Tea's architecture. The speaker emphasizes that simply having public URLs for files isn't inherently dangerous, it was the fact that these URLs were accessible via an endpoint that caused the hack.\n\nThe core of the argument focuses on Firebase's tendency to encourage direct database access by users, bypassing the crucial role of an API layer. This, the speaker contends, leads to inadequate security measures, as developers often fail to implement proper authentication and authorization checks when relying on Firebase's default settings. The speaker advocates for a traditional API-centric approach, where all data access is mediated through server-side code, enabling robust permission control and preventing unauthorized access. Using Convex as a positive example of a backend-as-a-service framework that forces developers to define specific endpoints for accessing data instead of exposing the database directly, leading to better security practices.\n\nUltimately, the video calls for greater awareness of backend architecture and security principles, especially among mobile developers. The speaker criticizes the tendency to avoid learning about server-side technologies and encourages developers to build real servers and APIs to gain a deeper understanding of data management and security best practices. The video's central message is that while Firebase offers convenience, its default configuration can easily lead to critical vulnerabilities, emphasizing the importance of thoughtful design and secure coding practices when handling sensitive user data."
+  },
+  {
+    "id": "08baa5",
+    "title": "How to Become a Great Software Developer \u2014 Best Advice from Top-Notch Engineers",
+    "url": "https://www.youtube.com/watch?v=suATPK45sjk",
+    "addedAt": "08/03/2025",
+    "summary": ""
+  },
+  {
+    "id": "82afd5",
+    "title": "Did gpt-5 just shadow drop? Horizon is the best code model ever",
+    "url": "https://www.youtube.com/watch?v=LXPZU3pmjPE",
+    "addedAt": "08/03/2025",
+    "summary": ""
+  },
+  {
+    "id": "4e83d6",
+    "title": "Claude Code best practices",
+    "url": "https://www.youtube.com/watch?v=gv0WHhKelSE",
+    "addedAt": "08/03/2025",
+    "summary": ""
   }
 ]
