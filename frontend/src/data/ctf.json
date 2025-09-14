@@ -9,16 +9,5 @@
         "link": "https://play.picoctf.org/practice/challenge/492"
       }
     ]
-  },
-  {
-    "category": "trset",
-    "challenges": [
-      {
-        "id": "trset-1",
-        "name": "sert",
-        "difficulty": "easy",
-        "link": ""
-      }
-    ]
   }
 ]
