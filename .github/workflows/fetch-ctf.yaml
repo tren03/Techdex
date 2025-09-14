@@ -1,4 +1,4 @@
-name: Merge Sheet Links into JSON
+name: Fetch CTF Links and Save JSON
 
 on:
   schedule:
