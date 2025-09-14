@@ -5,6 +5,7 @@ import Articles from "./pages/Articles";
 import Papers from "./pages/Papers";
 import MyBlogs from "./pages/MyBlogs";
 import BlogPage from "./pages/BlogPage";
+import CTF from "./pages/CTF";
 import InstantAvatarStack from "./components/Avatars";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/papers" element={<Papers />} />
         <Route path="/articles" element={<Articles />} />
         <Route path="/my-blogs" element={<MyBlogs />} />
+        <Route path="/ctf" element={<CTF />} />
         <Route path="/:slug" element={<BlogPage />} />
       </Routes>
       <div className="fixed bottom-4 right-4 z-50">

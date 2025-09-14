@@ -1,0 +1,13 @@
+[
+  {
+    "category": "PicoCTF Web Exploitation",
+    "challenges": [
+      {
+        "id": "picoctf-web-exploitation-1",
+        "name": "SSTI1",
+        "difficulty": "easy",
+        "link": "https://play.picoctf.org/practice/challenge/492"
+      }
+    ]
+  }
+]
