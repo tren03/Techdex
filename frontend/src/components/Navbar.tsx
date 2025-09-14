@@ -53,6 +53,9 @@ export default function Navbar() {
                     <Link to="/papers" className="hover:text-blue-400 transition-colors">
                         Papers
                     </Link>
+                    <Link to="/ctf" className="hover:text-blue-400 transition-colors">
+                        CTF
+                    </Link>
                     <Link to="/my-blogs" className="hover:text-blue-400 transition-colors">
                         My blogs
                     </Link>
@@ -76,6 +79,9 @@ export default function Navbar() {
                     </Link>
                     <Link to="/papers" className="hover:text-blue-400 transition-colors">
                         Papers
+                    </Link>
+                    <Link to="/ctf" className="hover:text-blue-400 transition-colors">
+                        CTF
                     </Link>
                     <Link to="/my-blogs" className="hover:text-blue-400 transition-colors">
                         My blogs
