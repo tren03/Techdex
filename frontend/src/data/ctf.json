@@ -7,6 +7,24 @@
         "name": "SSTI1",
         "difficulty": "easy",
         "link": "https://play.picoctf.org/practice/challenge/492"
+      },
+      {
+        "id": "picoctf-web-exploitation-2",
+        "name": "Cookie Monster Secret Recipe",
+        "difficulty": "easy",
+        "link": "https://play.picoctf.org/practice/challenge/469?category=1&page=1"
+      },
+      {
+        "id": "picoctf-web-exploitation-3",
+        "name": "WebDecode",
+        "difficulty": "easy",
+        "link": "https://play.picoctf.org/practice/challenge/427?category=1&page=1"
+      },
+      {
+        "id": "picoctf-web-exploitation-4",
+        "name": "Unminify",
+        "difficulty": "easy",
+        "link": "https://play.picoctf.org/practice/challenge/426?category=1&page=1"
       }
     ]
   }
