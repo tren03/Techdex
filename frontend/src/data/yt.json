@@ -873,5 +873,33 @@
     "url": "https://www.youtube.com/watch?v=lwFNdphmZbE",
     "addedAt": "09/13/2025",
     "summary": ""
+  },
+  {
+    "id": "81e30d",
+    "title": "Books Junior Developers NEED to read",
+    "url": "https://www.youtube.com/watch?v=if3HqkoHclU",
+    "addedAt": "09/14/2025",
+    "summary": ""
+  },
+  {
+    "id": "b0d5fa",
+    "title": "Making Architecture Matter - Martin Fowler Keynote",
+    "url": "https://www.youtube.com/watch?v=DngAZyWMGR0",
+    "addedAt": "09/14/2025",
+    "summary": ""
+  },
+  {
+    "id": "d855f7",
+    "title": "Visualising software architecture with the C4 model - Simon Brown, Agile on the Beach 2019",
+    "url": "https://www.youtube.com/watch?v=x2-rSnhpw0g",
+    "addedAt": "09/14/2025",
+    "summary": ""
+  },
+  {
+    "id": "5517af",
+    "title": "The Many Meanings of Event-Driven Architecture \u2022 Martin Fowler \u2022 GOTO 2017",
+    "url": "https://www.youtube.com/watch?v=STKCRSUsyP0",
+    "addedAt": "09/15/2025",
+    "summary": ""
   }
 ]
