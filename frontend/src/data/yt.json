@@ -949,7 +949,7 @@
     "title": "\"AI Startups\" are over done (finally)",
     "url": "https://www.youtube.com/watch?v=L3vToC1jO64",
     "addedAt": "09/19/2025",
-    "summary": null
+    "summary": ""
   },
   {
     "id": "fc3157",
@@ -1033,6 +1033,27 @@
     "title": "The harsh reality of good software",
     "url": "https://www.youtube.com/watch?v=NiljDyzAOcI",
     "addedAt": "10/15/2025",
+    "summary": ""
+  },
+  {
+    "id": "9db6a9",
+    "title": "Talk (Software - Day 2) - Rules Rule (Creating and Using a Rules Engine)",
+    "url": "https://www.youtube.com/watch?v=Lsi1ZhmbNDc",
+    "addedAt": "10/16/2025",
+    "summary": ""
+  },
+  {
+    "id": "a5111c",
+    "title": "Miguel Grinberg   Asynchronous Python for the Complete Beginner   PyCon 2017",
+    "url": "https://www.youtube.com/watch?v=iG6fr81xHKA",
+    "addedAt": "10/16/2025",
+    "summary": ""
+  },
+  {
+    "id": "d5ed7d",
+    "title": "Lynn Root - Advanced asyncio: Solving Real-world Production Problems - PyCon 2019",
+    "url": "https://www.youtube.com/watch?v=bckD_GK80oY",
+    "addedAt": "10/16/2025",
     "summary": ""
   }
 ]
