@@ -56,6 +56,9 @@ export default function Navbar() {
                     <Link to="/my-blogs" className="hover:text-blue-400 transition-colors">
                         My blogs
                     </Link>
+                    <Link to="/podcasts" className="hover:text-blue-400 transition-colors">
+                        Podcasts
+                    </Link>
                     <Link to="https://github.com/tren03" target="_blank" className="hover:text-blue-400 transition-colors">
                         GitHub
                     </Link>
@@ -79,6 +82,9 @@ export default function Navbar() {
                     </Link>
                     <Link to="/my-blogs" className="hover:text-blue-400 transition-colors">
                         My blogs
+                    </Link>
+                    <Link to="/podcasts" className="hover:text-blue-400 transition-colors">
+                        Podcasts
                     </Link>
                     <Link to="https://github.com/tren03" target="_blank" className="hover:text-blue-400 transition-colors">
                         GitHub
