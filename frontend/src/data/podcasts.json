@@ -4,16 +4,22 @@
             "bookTitle": "Designing Data Intensive Applications",
             "chapters": [
                 {
+                    "id": "Chapter 3: Storage and Retrieval",
+                    "title": "Chapter 3: Storage and Retrieval",
+                    "url": "ddia/ch3.m4a",
+                    "addedAt": "3rd Nov 2025"
+                },
+                {
                     "id": "Chapter 5: Data Evolution",
                     "title": "Chapter 5: Data Evolution",
                     "url": "ddia/The_Architect_s_Guide_to_Data_Evolution_Protobuf_vs.m4a",
-                    "addedAt": "03/12/2025"
+                    "addedAt": "3rd Nov 2025"
                 },
                 {
                     "id": "Chapter 6: Data Replication",
                     "title": "Chapter 6: Data Replication",
                     "url": "ddia/ddia-ch6.m4a",
-                    "addedAt": "03/12/2025"
+                    "addedAt": "3rd Nov 2025"
                 }
             ]
         }
