@@ -26,7 +26,13 @@
                     "title": "Chapter 6: Partitioning",
                     "url": "ddia/ddia-ch6-partitioning.m4a",
                     "addedAt": "3/11/2025"
-                }
+                },
+                {
+                    "id": "Chapter 7: Transactions",
+                    "title": "Chapter 7: Transactions",
+                    "url": "ddia/ddia-ch7.m4a",
+                    "addedAt": "5/11/2025"
+                }   
             ]
         }
     ]
