@@ -572,5 +572,59 @@
     "url": "https://www.geoffreylitt.com/2025/10/24/code-like-a-surgeon",
     "addedAt": "10/26/2025",
     "summary": "Geoffrey Litt's \"Code like a surgeon\" advocates for leveraging AI coding tools to optimize a programmer's workflow, drawing a parallel to a surgeon's highly specialized role within a supportive operating room. The core idea is to delegate secondary, often tedious, tasks to AI agents, freeing up the programmer to focus on the creative and critical aspects of their work, such as UI prototyping and design concept development. This involves identifying tasks that AI can handle effectively, such as code documentation, bug fixing, and code exploration, running them asynchronously, and reviewing the AI's output as a preparatory step. The aim is to create a workflow where the programmer can dive into their primary tasks with all the necessary groundwork already completed.\n\nA key distinction is made between the use of AI for primary versus secondary tasks. While AI can be used for core coding, the author emphasizes the need for careful oversight, fast feedback loops, and high visibility in these areas, preferring hands-on coding and careful integration of AI assistance. In contrast, for secondary tasks, a more hands-off approach is recommended, valuing the AI's ability to complete the job eventually, even if it takes longer and lacks immediate visibility. This echoes the \"autonomy slider\" concept, highlighting the importance of adjusting the level of AI involvement based on the specific task.\n\nUltimately, the article suggests that AI can revive the \"software surgeon\" concept, where a skilled programmer is supported by a team handling secondary tasks. Now, instead of human assistants, AI agents can fill these roles, working tirelessly and without the status hierarchy concerns that can arise with human team members. This approach, mirrored by Notion's AI-forward environment and its broader goal of empowering knowledge workers, is not about replacing core work, but about maximizing the efficiency and focus of individuals by offloading less engaging but necessary tasks."
+  },
+  {
+    "id": 626420,
+    "title": "Application State Management with React",
+    "url": "https://kentcdodds.com/blog/application-state-management-with-react",
+    "addedAt": "12/18/2025"
+  },
+  {
+    "id": 220688,
+    "title": "Why Engineers Can't Be Rational About Programming Languages",
+    "url": "https://spf13.com/p/the-hidden-conversation/",
+    "addedAt": "12/18/2025"
+  },
+  {
+    "id": 542840,
+    "title": "marcusolsson/goddd",
+    "url": "https://github.com/marcusolsson/goddd",
+    "addedAt": "12/18/2025"
+  },
+  {
+    "id": 892953,
+    "title": "Recommendations for Getting the Most Out of a Technical Book",
+    "url": "https://sebastianraschka.com/blog/2025/reading-books.html",
+    "addedAt": "12/18/2025"
+  },
+  {
+    "id": 921265,
+    "title": "How Complex Systems Fail",
+    "url": "https://how.complexsystems.fail/",
+    "addedAt": "12/18/2025"
+  },
+  {
+    "id": 633867,
+    "title": "What Actually Makes You Senior",
+    "url": "https://terriblesoftware.org/2025/11/25/what-actually-makes-you-senior/",
+    "addedAt": "12/18/2025"
+  },
+  {
+    "id": 599172,
+    "title": "Applying simplified CQRS and DDD patterns in a microservice - .NET",
+    "url": "https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/apply-simplified-microservice-cqrs-ddd-patterns",
+    "addedAt": "12/18/2025"
+  },
+  {
+    "id": 997716,
+    "title": "Useful patterns for building HTML tools",
+    "url": "https://simonwillison.net/2025/Dec/10/html-tools/",
+    "addedAt": "12/18/2025"
+  },
+  {
+    "id": 151493,
+    "title": "No title found",
+    "url": "https://www.naseraleisa.com/posts/diff#neovim-diffing-while-editing-code",
+    "addedAt": "12/18/2025"
   }
 ]
