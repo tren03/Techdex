@@ -644,5 +644,11 @@
     "title": "Digital hygiene",
     "url": "https://karpathy.bearblog.dev/digital-hygiene/",
     "addedAt": "01/03/2026"
+  },
+  {
+    "id": 484996,
+    "title": "mtlynch/hn-popularity-contest-data",
+    "url": "https://github.com/mtlynch/hn-popularity-contest-data/blob/master/data/domains-meta.csv",
+    "addedAt": "01/05/2026"
   }
 ]
