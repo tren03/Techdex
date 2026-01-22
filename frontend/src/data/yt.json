@@ -1145,7 +1145,7 @@
     "title": "Goroutines: Under the Hood | Vicki Niu | Go Systems Conf SF 2020",
     "url": "https://www.youtube.com/watch?v=S-MaTH8WpOM",
     "addedAt": "11/11/2025",
-    "summary": ""
+    "summary": null
   },
   {
     "id": "f36b58",
@@ -1271,6 +1271,20 @@
     "title": "What happens now?",
     "url": "https://www.youtube.com/watch?v=28z6OjsNsUk",
     "addedAt": "01/16/2026",
+    "summary": ""
+  },
+  {
+    "id": "095f85",
+    "title": "\"I shipped code I don't understand and I bet you have too\" \u2013 Jake Nations, Netflix",
+    "url": "https://www.youtube.com/watch?v=eIoohUmYpGI",
+    "addedAt": "01/21/2026",
+    "summary": ""
+  },
+  {
+    "id": "9dc92b",
+    "title": "I'm in danger",
+    "url": "https://www.youtube.com/watch?v=gRi82PiiaOs",
+    "addedAt": "01/21/2026",
     "summary": ""
   }
 ]
