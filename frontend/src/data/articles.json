@@ -662,5 +662,23 @@
     "title": "Hello from Coding Challenges",
     "url": "https://codingchallenges.fyi/",
     "addedAt": "01/19/2026"
+  },
+  {
+    "id": 578888,
+    "title": "Go Cookbook - Practical Go Code Snippets and Examples",
+    "url": "https://go-cookbook.com/snippets",
+    "addedAt": "01/28/2026"
+  },
+  {
+    "id": 485262,
+    "title": "Go documentation \u2014 DevDocs",
+    "url": "https://devdocs.io/go/",
+    "addedAt": "01/28/2026"
+  },
+  {
+    "id": 983544,
+    "title": "Golang Release 1.21: slices - Part 2",
+    "url": "https://www.ompluscator.com/article/golang/standard-lib-slices-part2/",
+    "addedAt": "01/28/2026"
   }
 ]
