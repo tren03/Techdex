@@ -680,5 +680,17 @@
     "title": "Golang Release 1.21: slices - Part 2",
     "url": "https://www.ompluscator.com/article/golang/standard-lib-slices-part2/",
     "addedAt": "01/28/2026"
+  },
+  {
+    "id": 781202,
+    "title": "bliki: Orm Hate",
+    "url": "https://martinfowler.com/bliki/OrmHate.html",
+    "addedAt": "01/31/2026"
+  },
+  {
+    "id": 563241,
+    "title": "Makefiles for Go Developers",
+    "url": "https://tutorialedge.net/golang/makefiles-for-go-developers/",
+    "addedAt": "01/31/2026"
   }
 ]
