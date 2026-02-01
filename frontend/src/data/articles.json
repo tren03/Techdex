@@ -692,5 +692,11 @@
     "title": "Makefiles for Go Developers",
     "url": "https://tutorialedge.net/golang/makefiles-for-go-developers/",
     "addedAt": "01/31/2026"
+  },
+  {
+    "id": 358138,
+    "title": "Organising database access in Go",
+    "url": "https://www.alexedwards.net/blog/organising-database-access",
+    "addedAt": "02/01/2026"
   }
 ]
