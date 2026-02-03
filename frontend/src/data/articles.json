@@ -698,5 +698,11 @@
     "title": "Organising database access in Go",
     "url": "https://www.alexedwards.net/blog/organising-database-access",
     "addedAt": "02/01/2026"
+  },
+  {
+    "id": 215260,
+    "title": "Why Am I Doing the Thinking for You?",
+    "url": "https://terriblesoftware.org/2026/02/02/why-am-i-doing-the-thinking-for-you/",
+    "addedAt": "02/03/2026"
   }
 ]
