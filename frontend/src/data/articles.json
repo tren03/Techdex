@@ -728,5 +728,11 @@
     "title": "How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt",
     "url": "https://margaretstorey.com/blog/2026/02/09/cognitive-debt/",
     "addedAt": "02/17/2026"
+  },
+  {
+    "id": 997096,
+    "title": "A function for renaming PostgreSQL JSONB keys | anorak:girl",
+    "url": "https://blog.anorakgirl.co.uk/2019/04/a-function-for-renaming-a-postgresql-jsonb-key/",
+    "addedAt": "02/19/2026"
   }
 ]
