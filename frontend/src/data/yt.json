@@ -1412,5 +1412,19 @@
     "url": "https://www.youtube.com/watch?v=M-pkXr-qqII",
     "addedAt": "02/19/2026",
     "summary": ""
+  },
+  {
+    "id": "f4811f",
+    "title": "Stop Confusing API Gateway, Load Balancer And Reverse Proxy",
+    "url": "https://www.youtube.com/watch?v=DVR0zvDYJgY",
+    "addedAt": "02/20/2026",
+    "summary": ""
+  },
+  {
+    "id": "083944",
+    "title": "Containers Don't Exist  - Your Kernel Is Lying to You",
+    "url": "https://www.youtube.com/watch?v=DUgzXX2_aDQ",
+    "addedAt": "02/20/2026",
+    "summary": ""
   }
 ]
