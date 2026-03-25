@@ -1580,5 +1580,19 @@
     "url": "https://www.youtube.com/watch?v=WjckELpzLOU",
     "addedAt": "03/21/2026",
     "summary": ""
+  },
+  {
+    "id": "f3fe28",
+    "title": "Kubernetes Is Not a Deployment Tool",
+    "url": "https://www.youtube.com/watch?v=iVj5vEnbFr0",
+    "addedAt": "03/24/2026",
+    "summary": ""
+  },
+  {
+    "id": "6b1dd1",
+    "title": "AI broke the one thing we can't fix",
+    "url": "https://www.youtube.com/watch?v=R_2YN1MungI",
+    "addedAt": "03/24/2026",
+    "summary": ""
   }
 ]
