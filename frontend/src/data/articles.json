@@ -770,5 +770,29 @@
     "title": "Your Monolith Is Already A Distributed System",
     "url": "https://arpitbhayani.me/blogs/monolith-is-distributed-system",
     "addedAt": "04/29/2026"
+  },
+  {
+    "id": 642166,
+    "title": "Agentic Coding is a Trap",
+    "url": "https://larsfaye.com/articles/agentic-coding-is-a-trap",
+    "addedAt": "05/12/2026"
+  },
+  {
+    "id": 263308,
+    "title": "Your Indispensable Value in the AI Era",
+    "url": "https://larsfaye.com/articles/the-question-is-the-work",
+    "addedAt": "05/12/2026"
+  },
+  {
+    "id": 439845,
+    "title": "The Incredible Overcomplexity of the Shadcn Radio Button",
+    "url": "https://paulmakeswebsites.com/writing/shadcn-radio-button/",
+    "addedAt": "05/12/2026"
+  },
+  {
+    "id": 704090,
+    "title": "Implementing Hybrid Semantic + Lexical Search",
+    "url": "https://kentcdodds.com/blog/implementing-hybrid-semantic-lexical-search",
+    "addedAt": "05/12/2026"
   }
 ]
