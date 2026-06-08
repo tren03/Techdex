@@ -69,7 +69,7 @@ export default function ResumeModal({ onClose }: Props) {
   const bottomRef = useRef<HTMLDivElement>(null);
 
   const skip = useCallback(() => {
-    if (RESUME_URL !== "#") window.open(RESUME_URL, "_blank");
+    window.open(RESUME_URL, "_blank");
     onClose();
   }, [onClose]);
 
@@ -93,7 +93,7 @@ export default function ResumeModal({ onClose }: Props) {
       if (line.type === "final") {
         ids.push(
           setTimeout(() => {
-            if (RESUME_URL !== "#") window.open(RESUME_URL, "_blank");
+            window.open(RESUME_URL, "_blank");
             setTimeout(onClose, 600);
           }, cum + 900)
         );
