@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import Hero from "./pages/Hero";
 import Youtube from "./pages/Youtube";
 import People from "./pages/People";
 import Articles from "./pages/Articles";
@@ -13,7 +14,8 @@ function App() {
   return (
     <div className="min-h-screen relative">
       <Routes>
-        <Route path="/" element={<Youtube />} />
+        <Route path="/" element={<Hero />} />
+        <Route path="/youtube" element={<Youtube />} />
         <Route path="/people" element={<People />} />
         <Route path="/papers" element={<Papers />} />
         <Route path="/articles" element={<Articles />} />

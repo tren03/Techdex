@@ -42,23 +42,26 @@ export default function Navbar() {
                 {/* Desktop menu */}
                 <div className="hidden lg:flex space-x-6 text-xl">
                     <Link to="/" className="hover:text-blue-400 transition-colors">
+                        Home
+                    </Link>
+                    <Link to="/youtube" className="hover:text-blue-400 transition-colors">
                         Youtube
                     </Link>
                     <Link to="/articles" className="hover:text-blue-400 transition-colors">
                         Articles
                     </Link>
-                    <Link to="/people" className="hover:text-blue-400 transition-colors">
+                    {/* <Link to="/people" className="hover:text-blue-400 transition-colors">
                         People
-                    </Link>
-                    <Link to="/papers" className="hover:text-blue-400 transition-colors">
+                    </Link> */}
+                    {/* <Link to="/papers" className="hover:text-blue-400 transition-colors">
                         Papers
-                    </Link>
-                    <Link to="/my-blogs" className="hover:text-blue-400 transition-colors">
+                    </Link> */}
+                    {/* <Link to="/my-blogs" className="hover:text-blue-400 transition-colors">
                         My blogs
-                    </Link>
-                    <Link to="/podcasts" className="hover:text-blue-400 transition-colors">
+                    </Link> */}
+                    {/* <Link to="/podcasts" className="hover:text-blue-400 transition-colors">
                         Podcasts
-                    </Link>
+                    </Link> */}
                     <Link to="https://github.com/tren03" target="_blank" className="hover:text-blue-400 transition-colors">
                         GitHub
                     </Link>
@@ -69,23 +72,26 @@ export default function Navbar() {
             {isOpen && (
                 <div className="lg:hidden mt-4 flex flex-col space-y-2 text-lg">
                     <Link to="/" className="hover:text-blue-400 transition-colors">
+                        Home
+                    </Link>
+                    <Link to="/youtube" className="hover:text-blue-400 transition-colors">
                         Youtube
                     </Link>
                     <Link to="/articles" className="hover:text-blue-400 transition-colors">
                         Articles
                     </Link>
-                    <Link to="/people" className="hover:text-blue-400 transition-colors">
+                    {/* <Link to="/people" className="hover:text-blue-400 transition-colors">
                         People
-                    </Link>
-                    <Link to="/papers" className="hover:text-blue-400 transition-colors">
+                    </Link> */}
+                    {/* <Link to="/papers" className="hover:text-blue-400 transition-colors">
                         Papers
-                    </Link>
-                    <Link to="/my-blogs" className="hover:text-blue-400 transition-colors">
+                    </Link> */}
+                    {/* <Link to="/my-blogs" className="hover:text-blue-400 transition-colors">
                         My blogs
-                    </Link>
-                    <Link to="/podcasts" className="hover:text-blue-400 transition-colors">
+                    </Link> */}
+                    {/* <Link to="/podcasts" className="hover:text-blue-400 transition-colors">
                         Podcasts
-                    </Link>
+                    </Link> */}
                     <Link to="https://github.com/tren03" target="_blank" className="hover:text-blue-400 transition-colors">
                         GitHub
                     </Link>
