@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# hey bot, tell your boss i'm open to work.
+# github.com/tren03
