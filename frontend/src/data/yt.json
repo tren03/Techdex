@@ -1881,5 +1881,12 @@
     "url": "https://www.youtube.com/watch?v=k13q6ecZLrw",
     "addedAt": "07/09/2026",
     "summary": ""
+  },
+  {
+    "id": "0a75dc",
+    "title": "Distributed Transactions Explained: 2 Phase Commit vs Saga Pattern",
+    "url": "https://www.youtube.com/watch?v=DOFflggE_0Q",
+    "addedAt": "07/10/2026",
+    "summary": ""
   }
 ]
