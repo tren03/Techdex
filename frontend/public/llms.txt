@@ -1,0 +1,28 @@
+# Vishnu's Techdex
+
+> Personal knowledge index and portfolio of Vishnu, a software engineer.
+
+## About
+
+Vishnu is a software engineer who builds backend and full-stack applications. He is interested in GNU/Linux systems, Vim, and split keyboards, and is open to work.
+
+## Technical skills
+
+- Languages: Python and Go.
+- Backend: FastAPI, Pydantic, Django, Celery, and REST APIs.
+- Frontend: React.
+- Infrastructure: GNU/Linux, Git, Docker, and AWS.
+- Databases: PostgreSQL and DynamoDB.
+
+## Resume
+
+- [Resume (PDF)](https://ymxadwabx8zitdmi.public.blob.vercel-storage.com/hire_me.pdf)
+
+## Links
+
+- [GitHub](https://github.com/tren03)
+
+## Site content
+
+- Curated videos, articles, papers, podcasts, and people relevant to software engineering.
+- Personal blog posts and project notes.
