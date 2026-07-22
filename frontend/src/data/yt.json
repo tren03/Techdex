@@ -1159,7 +1159,7 @@
     "title": "Why People Are So Confident When They're Wrong",
     "url": "https://www.youtube.com/watch?v=9M_QK4stCJU",
     "addedAt": "11/13/2025",
-    "summary": ""
+    "summary": null
   },
   {
     "id": "3b59ff",
@@ -1901,6 +1901,13 @@
     "title": "Networking Essentials for System Design Interviews w/ Ex Meta Senior Manager",
     "url": "https://www.youtube.com/watch?v=SHkbPm1Wrno",
     "addedAt": "07/17/2026",
+    "summary": ""
+  },
+  {
+    "id": "59cbbd",
+    "title": "Big O Notation Deep Dive | The Skill That Gets You Hired",
+    "url": "https://www.youtube.com/watch?v=VtiZXaomOTg",
+    "addedAt": "07/21/2026",
     "summary": ""
   }
 ]
