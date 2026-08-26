@@ -866,5 +866,11 @@
     "title": "No title found",
     "url": "https://opensource.zalando.com/restful-api-guidelines/#introduction",
     "addedAt": "08/19/2026"
+  },
+  {
+    "id": 435487,
+    "title": "Facts and myths about Python names and values",
+    "url": "https://nedbatchelder.com/text/names",
+    "addedAt": "08/26/2026"
   }
 ]
