@@ -872,5 +872,11 @@
     "title": "Facts and myths about Python names and values",
     "url": "https://nedbatchelder.com/text/names",
     "addedAt": "08/26/2026"
+  },
+  {
+    "id": 513654,
+    "title": "Creepy crawlies",
+    "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
+    "addedAt": "09/09/2026"
   }
 ]
