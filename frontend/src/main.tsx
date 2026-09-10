@@ -5,7 +5,7 @@ console.log(
   'color: #60a5fa; font-size: 16px; font-weight: bold; font-family: monospace;'
 )
 console.log(
-  '%c i\'m open to work — github.com/tren03',
+  '%c i\'m open to work — linkedin.com/in/vishnu-sethuraman-269b63210',
   'color: #9ca3af; font-size: 12px; font-family: monospace;'
 )
 import { createRoot } from 'react-dom/client'
