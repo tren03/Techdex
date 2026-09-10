@@ -1,123 +1,441 @@
-@import "tailwindcss";
-@plugin "@tailwindcss/typography";
-@import "tw-animate-css";
-
-@custom-variant dark (&:is(.dark *));
-
 :root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  color: #111;
+  background: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
 }
 
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+* {
+  box-sizing: border-box;
 }
 
-@theme inline {
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 4px);
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-card: var(--card);
-  --color-card-foreground: var(--card-foreground);
-  --color-popover: var(--popover);
-  --color-popover-foreground: var(--popover-foreground);
-  --color-primary: var(--primary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-secondary: var(--secondary);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-muted: var(--muted);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-accent: var(--accent);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-destructive: var(--destructive);
-  --color-border: var(--border);
-  --color-input: var(--input);
-  --color-ring: var(--ring);
-  --color-chart-1: var(--chart-1);
-  --color-chart-2: var(--chart-2);
-  --color-chart-3: var(--chart-3);
-  --color-chart-4: var(--chart-4);
-  --color-chart-5: var(--chart-5);
-  --color-sidebar: var(--sidebar);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-ring: var(--sidebar-ring);
+body {
+  margin: 0;
 }
 
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
+a {
+  color: #00e;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid #111;
+  outline-offset: 2px;
+}
+
+.site-shell {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem 4rem;
+}
+
+.site-header {
+  align-items: baseline;
+  border-bottom: 1px solid #bbb;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  padding-bottom: 0.75rem;
+}
+
+.site-title {
+  color: #111;
+  font-size: 1.45rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.content {
+  padding-top: 2rem;
+}
+
+.portfolio {
+  max-width: 680px;
+  margin-inline: auto;
+  padding: 4rem 0 2rem;
+}
+
+.portfolio-label {
+  margin: 0 0 0.75rem;
+}
+
+.portfolio h1 {
+  font-size: clamp(3rem, 8vw, 5.5rem);
+  line-height: 0.95;
+  margin: 0;
+}
+
+.portfolio-lede {
+  font-size: 1.35rem;
+  line-height: 1.45;
+  margin: 1.5rem 0 0;
+  max-width: 40rem;
+}
+
+.portfolio-links {
+  border-top: 1px solid #bbb;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+}
+
+.site-header nav a,
+.portfolio-links a {
+  color: #444;
+  font-size: 0.95rem;
+  font-variant-caps: small-caps;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+
+.site-header nav a:hover,
+.site-header nav a:focus-visible,
+.portfolio-links a:hover,
+.portfolio-links a:focus-visible {
+  text-decoration: underline;
+}
+
+.portfolio-facts {
+  border-top: 1px solid #bbb;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2.5rem 0 0;
+}
+
+.portfolio-facts div {
+  padding: 1rem 1rem 1rem 0;
+}
+
+.portfolio-facts div + div {
+  border-left: 1px solid #bbb;
+  padding-left: 1rem;
+}
+
+.portfolio-facts dt {
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
+
+.portfolio-facts dd {
+  margin: 0;
+}
+
+.experience {
+  border-top: 1px solid #bbb;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+}
+
+.experience h2 {
+  font-size: 1.5rem;
+}
+
+.experience-company-header {
+  align-items: baseline;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-top: 1.25rem;
+}
+
+.experience-company-header h3,
+.experience-company-header p,
+.experience-role h3,
+.experience-role p {
+  margin: 0;
+}
+
+.experience-company-header h3,
+.experience-role h3 {
+  font-size: 1.1rem;
+}
+
+.experience-company-header p,
+.experience-role-type,
+.experience-role p:not(.experience-role-type) {
+  color: #555;
+}
+
+.experience-roles {
+  border-left: 1px solid #bbb;
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0 0 0 1.5rem;
+}
+
+.experience-role {
+  padding: 0 0 1.25rem;
+  position: relative;
+}
+
+.experience-role:last-child {
+  padding-bottom: 0;
+}
+
+.experience-role::before {
+  background: #bbb;
+  border-radius: 50%;
+  content: "";
+  height: 0.5rem;
+  left: -1.78rem;
+  position: absolute;
+  top: 0.35rem;
+  width: 0.5rem;
+}
+
+.experience-role p {
+  margin-top: 0.15rem;
+}
+
+.table-section + .table-section {
+  border-top: 1px solid #bbb;
+  margin-top: 3rem;
+  padding-top: 2rem;
+}
+
+.section-heading {
+  align-items: baseline;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+input {
+  border: 1px solid #888;
+  border-radius: 0;
+  min-width: 15rem;
+  padding: 0.3rem 0.45rem;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #111;
+  min-width: 760px;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 0.55rem 0.6rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  border-bottom: 2px solid #111;
+  font-weight: 700;
+}
+
+th:first-child,
+td:first-child {
+  width: 3rem;
+}
+
+td:nth-child(3) {
+  max-width: 18rem;
+  padding-right: 1rem;
+}
+
+.url-link {
+  color: #444;
+  display: inline-block;
+  max-width: 18rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.url-link:hover,
+.url-link:focus-visible {
+  text-decoration: underline;
+}
+
+td:nth-child(4) {
+  max-width: 32rem;
+}
+
+.summary-button {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+}
+
+.summary-button:hover {
+  text-decoration: underline;
+}
+
+.modal-backdrop {
+  align-items: center;
+  background: rgb(0 0 0 / 35%);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  padding: 1rem;
+  position: fixed;
+}
+
+.summary-modal {
+  background: #fff;
+  border: 1px solid #111;
+  max-height: 80vh;
+  max-width: 45rem;
+  overflow-y: auto;
+  padding: 1rem;
+  width: 100%;
+}
+
+.summary-modal header {
+  align-items: baseline;
+  border-bottom: 1px solid #bbb;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.summary-modal p {
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+@media (max-width: 640px) {
+  .site-shell {
+    padding-inline: 0.75rem;
   }
 
-  body {
-    @apply bg-background text-foreground;
-    @apply font-mono
+  .site-header,
+  .section-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  input {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .portfolio {
+    padding-top: 3rem;
+  }
+
+  .portfolio-lede {
+    font-size: 1.2rem;
+  }
+
+  .portfolio-facts {
+    display: block;
+  }
+
+  .portfolio-facts div,
+  .portfolio-facts div + div {
+    border-left: 0;
+    padding: 0.85rem 0;
+  }
+
+  .portfolio-facts div + div {
+    border-top: 1px solid #bbb;
+  }
+
+  .experience-company-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .table-scroll {
+    overflow: visible;
+  }
+
+  table {
+    border: 0;
+    min-width: 0;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tbody {
+    display: block;
+  }
+
+  tr {
+    border: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: 2rem minmax(0, 1fr);
+    margin-bottom: 0.75rem;
+    min-width: 0;
+    padding: 0.45rem 0.6rem;
+  }
+
+  td,
+  td:first-child,
+  td:nth-child(3),
+  td:nth-child(4) {
+    border: 0;
+    max-width: none;
+    min-width: 0;
+    padding: 0.25rem 0;
+    width: auto;
+  }
+
+  td:first-child {
+    grid-row: 1 / span 4;
+  }
+
+  td:not(:first-child)::before {
+    content: attr(data-label) ": ";
+    font-weight: 700;
+  }
+
+  .url-link {
+    max-width: calc(100% - 0.5rem);
   }
 }
