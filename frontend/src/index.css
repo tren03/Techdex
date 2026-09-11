@@ -136,14 +136,67 @@ nav {
   margin: 0;
 }
 
+.projects,
 .experience {
   border-top: 1px solid #bbb;
   margin-top: 2.5rem;
   padding-top: 1.5rem;
 }
 
+.projects h2,
 .experience h2 {
   font-size: 1.5rem;
+}
+
+.project-list {
+  list-style: none;
+  margin: 1.25rem 0 0;
+  padding: 0;
+}
+
+.project {
+  padding-bottom: 1.25rem;
+}
+
+.project + .project {
+  border-top: 1px solid #bbb;
+  padding-top: 1.25rem;
+}
+
+.project-heading {
+  align-items: baseline;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.project-heading h3,
+.project p {
+  margin: 0;
+}
+
+.project-heading h3 {
+  font-size: 1.1rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-links a {
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.project p {
+  margin-top: 0.5rem;
+}
+
+.project .project-note {
+  color: #555;
+  font-size: 0.95rem;
+  margin-top: 0.25rem;
 }
 
 .experience-company-header {
@@ -387,6 +440,12 @@ td:nth-child(4) {
     align-items: flex-start;
     flex-direction: column;
     gap: 0.15rem;
+  }
+
+  .project-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.25rem;
   }
 
   .table-scroll {

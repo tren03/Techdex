@@ -14,6 +14,16 @@ type ExperienceRole = {
   location: string;
 };
 
+type Project = {
+  name: string;
+  description: string;
+  note: string;
+  links: Array<{
+    label: string;
+    href: string;
+  }>;
+};
+
 const EXPERIENCE_ROLES: ExperienceRole[] = [
   {
     title: "Associate SDE",
@@ -28,6 +38,18 @@ const EXPERIENCE_ROLES: ExperienceRole[] = [
     start: new Date(2024, 10, 1),
     end: new Date(2025, 6, 1),
     location: "Bengaluru, Karnataka, India · On-site",
+  },
+];
+
+const PROJECTS: Project[] = [
+  {
+    name: "migraph",
+    description: "A browser UI for visualizing and rewiring Alembic migration graphs.",
+    note: "I built it for my own migration work and now use it daily. Published on PyPI.",
+    links: [
+      { label: "GitHub", href: "https://github.com/tren03/migraph" },
+      { label: "PyPI", href: "https://pypi.org/project/migraph/" },
+    ],
   },
 ];
 
@@ -121,6 +143,7 @@ export default function App() {
               <a href="https://ymxadwabx8zitdmi.public.blob.vercel-storage.com/hire_me.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
               <a href="https://github.com/tren03" target="_blank" rel="noopener noreferrer">GitHub</a>
               <a href="https://www.linkedin.com/in/vishnu-sethuraman-269b63210/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="#projects">Projects</a>
               <a href="/youtube">YouTube</a>
               <a href="/articles">Articles</a>
             </nav>
@@ -143,6 +166,28 @@ export default function App() {
                 <dd>GNU/Linux, split keyboards, vim</dd>
               </div>
             </dl>
+
+            <section className="projects" id="projects" aria-labelledby="projects-title">
+              <h2 id="projects-title">Projects</h2>
+              <ol className="project-list">
+                {PROJECTS.map((project) => (
+                  <li className="project" key={project.name}>
+                    <div className="project-heading">
+                      <h3>{project.name}</h3>
+                      <div className="project-links">
+                        {project.links.map((link) => (
+                          <a href={link.href} key={link.href} target="_blank" rel="noopener noreferrer">
+                            {link.label}
+                          </a>
+                        ))}
+                      </div>
+                    </div>
+                    <p>{project.description}</p>
+                    <p className="project-note">{project.note}</p>
+                  </li>
+                ))}
+              </ol>
+            </section>
 
             <section className="experience" aria-labelledby="experience-title">
               <h2 id="experience-title">Experience</h2>
