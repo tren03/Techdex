@@ -140,7 +140,7 @@ export default function App() {
             </div>
 
             <nav className="portfolio-links" aria-label="Portfolio links">
-              <a href="https://ymxadwabx8zitdmi.public.blob.vercel-storage.com/hire_me.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+              <a href="https://ymxadwabx8zitdmi.public.blob.vercel-storage.com/Vishnu_Sethuraman.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
               <a href="https://github.com/tren03" target="_blank" rel="noopener noreferrer">GitHub</a>
               <a href="https://www.linkedin.com/in/vishnu-sethuraman-269b63210/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
               <a href="#projects">Projects</a>
