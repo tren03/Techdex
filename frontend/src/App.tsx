@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import { useLocation } from "react-router-dom";
+import { House } from "lucide-react";
 import articlesRaw from "./data/articles.json";
 import youtubeRaw from "./data/yt.json";
 import { Item } from "./models";
@@ -44,7 +45,7 @@ const EXPERIENCE_ROLES: ExperienceRole[] = [
 const PROJECTS: Project[] = [
   {
     name: "migraph",
-    description: "A browser UI for visualizing and rewiring Alembic migration graphs.",
+    description: "A browser UI for visualizing and rewiring database migration graphs with Alembic.",
     note: "I built it for my own migration work and now use it daily. Published on PyPI.",
     links: [
       { label: "GitHub", href: "https://github.com/tren03/migraph" },
@@ -119,7 +120,9 @@ export default function App() {
   return (
     <main className="site-shell">
       <header className="site-header">
-        <a className="site-title" href="/">Techdex</a>
+        <a className="site-title" href="/">
+          <House aria-hidden="true" size={22} strokeWidth={2} />
+        </a>
         <nav aria-label="Main navigation">
           <a href="/youtube">YouTube</a>
           <a href="/articles">Articles</a>
