@@ -902,5 +902,11 @@
     "title": " htmx ~ Yes, and...",
     "url": "https://htmx.org/essays/yes-and/",
     "addedAt": "10/11/2026"
+  },
+  {
+    "id": 444381,
+    "title": "Raising exceptions or returning error objects in Python",
+    "url": "https://lukeplant.me.uk/blog/posts/raising-exceptions-or-returning-error-objects-in-python/",
+    "addedAt": "10/17/2026"
   }
 ]
