@@ -908,5 +908,11 @@
     "title": "Raising exceptions or returning error objects in Python",
     "url": "https://lukeplant.me.uk/blog/posts/raising-exceptions-or-returning-error-objects-in-python/",
     "addedAt": "10/17/2026"
+  },
+  {
+    "id": 676692,
+    "title": "Hello, World!",
+    "url": "https://zerodha.tech/blog/hello-world/",
+    "addedAt": "10/22/2026"
   }
 ]
