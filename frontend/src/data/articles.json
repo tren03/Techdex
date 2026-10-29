@@ -914,5 +914,11 @@
     "title": "Hello, World!",
     "url": "https://zerodha.tech/blog/hello-world/",
     "addedAt": "10/22/2026"
+  },
+  {
+    "id": 905104,
+    "title": "Hunger beats tenure: Advice for junior engineers",
+    "url": "https://felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers/",
+    "addedAt": "10/29/2026"
   }
 ]
