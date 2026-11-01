@@ -920,5 +920,11 @@
     "title": "Hunger beats tenure: Advice for junior engineers",
     "url": "https://felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers/",
     "addedAt": "10/29/2026"
+  },
+  {
+    "id": 794859,
+    "title": "SQL Transactions in Go: The Good Way",
+    "url": "https://blog.thibaut-rousseau.com/blog/sql-transactions-in-go-the-good-way/",
+    "addedAt": "11/01/2026"
   }
 ]
