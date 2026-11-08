@@ -926,5 +926,11 @@
     "title": "SQL Transactions in Go: The Good Way",
     "url": "https://blog.thibaut-rousseau.com/blog/sql-transactions-in-go-the-good-way/",
     "addedAt": "11/01/2026"
+  },
+  {
+    "id": 150926,
+    "title": "A Practical Guide to using Advisory Locks in your Application Sahaj Software",
+    "url": "https://www.sahaj.ai/a-practical-guide-to-using-advisory-locks-in-your-application/",
+    "addedAt": "11/08/2026"
   }
 ]
