@@ -944,5 +944,17 @@
     "title": "Of Math and Memory, Part 3 (Final)",
     "url": "https://radimentary.wordpress.com/2020/05/16/of-math-and-memory-part-3-final/",
     "addedAt": "11/10/2026"
+  },
+  {
+    "id": 351626,
+    "title": "Small CLs",
+    "url": "https://google.github.io/eng-practices/review/developer/small-cls.html",
+    "addedAt": "11/11/2026"
+  },
+  {
+    "id": 252987,
+    "title": "Marcus Obst",
+    "url": "https://marcus-obst.de/blog/thoughts-on-ai",
+    "addedAt": "11/11/2026"
   }
 ]
